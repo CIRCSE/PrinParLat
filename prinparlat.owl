@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:oa="https://www.w3.org/ns/oa#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:gold="http://purl.org/linguistics/gold/"
+     xmlns:lila="http://lila-erc.eu/ontologies/lila/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:morph="https://ontolex.github.io/morph/"
+     xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
+     xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+     xmlns:paralex="https://www.paralex-standard.org/paralex_ontology.xml#"
+     xmlns:unimorph="http://purl.org/olia/unimorph.owl#"
+     xmlns:vartrans="http://www.w3.org/ns/lemon/vartrans#"
+     xmlns:lila_lemma="http://lila-erc.eu/data/id/lemma/"
+     xmlns:prinparlat="http://lila-erc.eu/ontologies/prinparlat/"
+     xmlns:prinparlat_data="http://lila-erc.eu/data/lexicalResources/prinparlat/id/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/cell_left -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/cell_left">
+        <rdfs:subPropertyOf rdf:resource="https://www.paralex-standard.org/paralex_ontology.xml#cell"/>
+        <rdfs:domain rdf:resource="http://lila-erc.eu/ontologies/prinparlat/Pattern"/>
+        <rdfs:comment>Property that connects a Pattern to the cell to which the wordform on the left refers.</rdfs:comment>
+        <rdfs:label>cell (left)</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/cell_right -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/cell_right">
+        <rdfs:subPropertyOf rdf:resource="https://www.paralex-standard.org/paralex_ontology.xml#cell"/>
+        <rdfs:domain rdf:resource="http://lila-erc.eu/ontologies/prinparlat/Pattern"/>
+        <rdfs:comment>Property that connects a Pattern to the cell to which the wordform on the right refers.</rdfs:comment>
+        <rdfs:label>cell (right)</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/flexeme -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/flexeme">
+        <rdfs:subPropertyOf rdf:resource="http://lila-erc.eu/ontologies/prinparlat/isLexicalFormOf"/>
+        <rdfs:range rdf:resource="http://lila-erc.eu/ontologies/prinparlat/Flexeme"/>
+        <rdfs:comment>Property that connects Forms to the Flexemes they belong to.</rdfs:comment>
+        <rdfs:label>flexeme</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/hasFlexeme -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/hasFlexeme">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/lemon/vartrans#lexicalRel"/>
+        <inverseOf rdf:resource="http://lila-erc.eu/ontologies/prinparlat/isFlexemeOf"/>
+        <rdfs:comment>Property that connects Lexemes to the Flexemes they map to.</rdfs:comment>
+        <rdfs:label>has flexeme</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/isFlexemeOf -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/isFlexemeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/lemon/vartrans#lexicalRel"/>
+        <rdfs:domain rdf:resource="http://lila-erc.eu/ontologies/prinparlat/Flexeme"/>
+        <rdfs:range rdf:resource="http://lila-erc.eu/ontologies/prinparlat/Lexeme"/>
+        <rdfs:comment>Property that connects Flexemes to the Lexemes they map to.</rdfs:comment>
+        <rdfs:label>is flexeme of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/isLexicalFormOf -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/isLexicalFormOf">
+        <inverseOf rdf:resource="http://www.w3.org/ns/lemon/ontolex#lexicalForm"/>
+        <rdfs:comment>Property that connects Forms to the lexical items they belong to. This is defined as the inverse property of ontolex:lexicalForm, allowing for the inference of the lexical forms of Flexemes in PrinParLat data.</rdfs:comment>
+        <rdfs:label>is lexical form of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/pattern -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/pattern">
+        <rdfs:range rdf:resource="http://lila-erc.eu/ontologies/prinparlat/Pattern"/>
+        <rdfs:comment>Property that connects items to the Patterns they refer to.</rdfs:comment>
+        <rdfs:label>pattern</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/stemType -->
+
+    <ObjectProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/stemType">
+        <rdfs:domain rdf:resource="http://lila-erc.eu/ontologies/prinparlat/Stem"/>
+        <rdfs:range rdf:resource="http://lila-erc.eu/ontologies/prinparlat/StemType"/>
+        <rdfs:comment>Property that connects stems to their Stem Type.</rdfs:comment>
+        <rdfs:label>stem type</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#lexicalForm -->
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/lemon/ontolex#lexicalForm"/>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/vartrans#lexicalRel -->
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/lemon/vartrans#lexicalRel"/>
+    
+
+
+    <!-- https://www.paralex-standard.org/paralex_ontology.xml#cell -->
+
+    <ObjectProperty rdf:about="https://www.paralex-standard.org/paralex_ontology.xml#cell"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/alternation -->
+
+    <DatatypeProperty rdf:about="http://lila-erc.eu/ontologies/prinparlat/alternation">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>Property that expresses the formal alternation displayed by a Pattern, as output by the Qumin toolkit (Beniamine 2018). The format is inspired to the SPE rule notation (i.e., the one used by Chomsky and Halle in &quot;The Sound Pattern of English&quot;). For instance, between the wordforms &quot;amare&quot; (&apos;love&apos;, prs.act.inf) and &quot;amabit&quot; (fut.act.ind.3.sg), the alternation pattern output by Qumin is &quot;re ⇌ bit / X*[-rnd]_&quot; </rdfs:comment>
+        <rdfs:label>alternation</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/Ending -->
+
+    <Class rdf:about="http://lila-erc.eu/ontologies/prinparlat/Ending">
+        <rdfs:subClassOf rdf:resource="https://www.paralex-standard.org/paralex_ontology.xml#OrthMorph"/>
+        <rdfs:comment>The ending displayed by a given wordform, according to the segmentation provided by Lemlat. For instance, &quot;are&quot; in &quot;amare&quot; (&apos;love&apos;, prs.act.inf).</rdfs:comment>
+        <rdfs:label>Ending</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/Flexeme -->
+
+    <Class rdf:about="http://lila-erc.eu/ontologies/prinparlat/Flexeme">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+        <rdfs:comment>Flexemes are abstract lexical units characterized in terms of form, as opposed to lexemes, that are characterized in terms of meaning (cf. Fradin &amp; Kerleroux 2003). For instance, the Latin word meaning &apos;keep away&apos; displays different form variants, with the sequence &quot;abarc&quot; (prs.act.inf &quot;abarcere&quot;, fut.act.ind.3.sg &quot;abarcebit&quot;) or with the sequence &quot;aberc&quot; (prs.act.inf &quot;abercere&quot;, prf.act.ind.1.sg &quot;abalienaui&quot;). Since the meaning is the same, all these variants belong to the same lexeme. However, there are two flexemes to account for the difference of form: one flexeme groups the forms displaying the sequence &quot;abarc&quot; (&quot;abarcere&quot; and &quot;abarcebit&quot;), the other one groups the forms displaying the sequence &quot;aberc&quot; (&quot;abercere&quot; and &quot;abercebit&quot;).</rdfs:comment>
+        <rdfs:label>Flexeme</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/Lexeme -->
+
+    <Class rdf:about="http://lila-erc.eu/ontologies/prinparlat/Lexeme"/>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/Pattern -->
+
+    <Class rdf:about="http://lila-erc.eu/ontologies/prinparlat/Pattern">
+        <rdfs:comment>Patterns are the expression of the formal alternation between two wordforms. For instance, between the wordforms &quot;amare&quot; (&apos;love&apos;, prs.act.inf) and &quot;amabit&quot; (fut.act.ind.3.sg), the alternation pattern consists in replacing the sequence &quot;re&quot; with the sequence &quot;bit&quot; at the end of the wordform.</rdfs:comment>
+        <rdfs:label>Pattern</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/Stem -->
+
+    <Class rdf:about="http://lila-erc.eu/ontologies/prinparlat/Stem">
+        <rdfs:subClassOf rdf:resource="https://www.paralex-standard.org/paralex_ontology.xml#OrthMorph"/>
+        <rdfs:comment>The stem on which a given wordform is built, according to the segmentation provided by Lemlat. For instance, &quot;am&quot; in &quot;amare&quot; (&apos;love&apos;, prs.act.inf).</rdfs:comment>
+        <rdfs:label>Stem</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/StemType -->
+
+    <Class rdf:about="http://lila-erc.eu/ontologies/prinparlat/StemType">
+        <rdfs:comment>The type of a given stem, on the basis of the set of cells that are built on that stem. For instance, Present Stem, on which wordforms of the present system are built.</rdfs:comment>
+        <rdfs:label>Stem Type</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#LexicalEntry -->
+
+    <Class rdf:about="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+    
+
+
+    <!-- https://www.paralex-standard.org/paralex_ontology.xml#OrthMorph -->
+
+    <Class rdf:about="https://www.paralex-standard.org/paralex_ontology.xml#OrthMorph"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/future_participle_stem -->
+
+    <NamedIndividual rdf:about="http://lila-erc.eu/ontologies/prinparlat/future_participle_stem">
+        <rdf:type rdf:resource="http://lila-erc.eu/ontologies/prinparlat/StemType"/>
+        <rdfs:comment>The stem on which wordforms of the future participle are built.</rdfs:comment>
+        <rdfs:label>future participle stem</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/perfect_participle_stem -->
+
+    <NamedIndividual rdf:about="http://lila-erc.eu/ontologies/prinparlat/perfect_participle_stem">
+        <rdf:type rdf:resource="http://lila-erc.eu/ontologies/prinparlat/StemType"/>
+        <rdfs:comment>The stem on which wordforms of the perfect participle are built.</rdfs:comment>
+        <rdfs:label>perfect participle stem</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/perfect_stem -->
+
+    <NamedIndividual rdf:about="http://lila-erc.eu/ontologies/prinparlat/perfect_stem">
+        <rdf:type rdf:resource="http://lila-erc.eu/ontologies/prinparlat/StemType"/>
+        <rdfs:comment>The stem on which wordforms of the perfect system are built.</rdfs:comment>
+        <rdfs:label>perfect stem</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://lila-erc.eu/ontologies/prinparlat/present_stem -->
+
+    <NamedIndividual rdf:about="http://lila-erc.eu/ontologies/prinparlat/present_stem">
+        <rdf:type rdf:resource="http://lila-erc.eu/ontologies/prinparlat/StemType"/>
+        <rdfs:comment>The stem on which wordforms of the present system are built.</rdfs:comment>
+        <rdfs:label>present stem</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
