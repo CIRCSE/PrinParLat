@@ -3,7 +3,7 @@ fut.act.ind.3.sg,V;FIN;ACT;FUT;IPFV;IND;3;SG
 prs.act.inf,V;NFIN;ACT;IPFV
 fut.pass.ind.3.sg,V;FIN;PASS;FUT;IPFV;IND;3;SG
 prs.pass.inf,V;NFIN;PASS;IPFV
-prf.act.ind.1.sg,V;FIN;ACT;PRS;PFV;IND;1;SG
-prf.act.ind.3.sg,V;FIN;ACT;PRS;PFV;IND;3;SG
+prf.act.ind.1.sg,V;FIN;ACT;PST;PFV;IND;1;SG
+prf.act.ind.3.sg,V;FIN;ACT;PST;PFV;IND;3;SG
 prf.pass.ptcp.nom.n.sg,V.PTCP;NFIN;PASS;PFV;NOM;NEUT;SG
 fut.act.ptcp.nom.n.sg,V.PTCP;NFIN;ACT;PROSP;NOM;NEUT;SG
