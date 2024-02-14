@@ -10,20 +10,22 @@ For instance, the forms "lalare", "lalabit", "lallare", "lallabit" are assigned 
 Similarly, the forms "lauare", "lauabit", "lauere", "lauaet" are assigned to the same lexeme because of their shared meaning ('wash'), but different flexemes are introduced to group wordforms that are inflected according the first conjugation on the one hand ("ablauare", "ablauabit"), wordforms that are inflected according to the third conjugation on the other hand ("ablauere", "ablauet").
 
 Fine-grained information on the inflectional behaviour of each flexeme is provided by means of a list of the patterns of formal alternation that hold between all their principal parts, together with their context of application, as extracted by the Qumin toolkit (cf. Beniamine 2018). 
-For instance, the alternation pattern between "lauare" and "ablauabit" ("re ⇌ bit") is different than the one between "ablauere" and "ablauet" ("er_ ⇌ _t"), so the two flexemes will be assigned to different inflection classes. On the other hand, the same alternation pattern holds between "lalare" and "lalabit" on the one hand, between "lallare" and "lallabit" on the other hand ("re ⇌ bit"), so the two flexemes will be assigned to the same inflection class.
+For instance, the alternation pattern between "lauare" and "ablauabit" ("re ⇌ bit") is different than the one between "ablauere" and "ablauet" ("er\_ ⇌ \_t"), so the two flexemes will be assigned to different inflection classes. On the other hand, the same alternation pattern holds between "lalare" and "lalabit" on the one hand, between "lallare" and "lallabit" on the other hand ("re ⇌ bit"), so the two flexemes will be assigned to the same inflection class.
+
+## How to cite
+
+Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2023. PrinParLat. Online resource.
 
 ## References
 
 Beniamine, S. (2018). _Classifications flexionnelles. Étude quantitative des structures de paradigmes_. PhD Thesis. Université Sorbonne Paris Cité-Université Paris Diderot (Paris 7). 
 
 Fradin, B. &  Kerleroux, F. (2003). Troubles with lexemes. In G. Booij, J. DeCesaris, A. Ralli & S. Scalise (eds.), _Selected papers from the third Mediterranean Morphology Meeting_. Barcelona: IULA – Universitat Pompeu Fabra, 177–196.
-
 Stump, G. T. & Finkel, R. A.  (2013). _Morphological typology: From word to paradigm_. Cambridge: Cambridge University Press.
 
 ## Files
 
-PrinParLat is released both as a set of .csv files following the Paralex standard format for paradigmatic lexicons (work in progress), and as Linked Open Data in the LiLa Knowledge Base, in .ttl format.
-The ontology defining classes and properties introduced specifically for the data at hand is provided in .owl format
+PrinParLat is released both as a set of .csv files following the Paralex standard format for paradigmatic lexicons, and as Linked Open Data in the LiLa Knowledge Base, in .ttl format.
 
 ## Copyright
 

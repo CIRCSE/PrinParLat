@@ -1,0 +1,119 @@
+@prefix prinparlat_data: <http://lila-erc.eu/data/lexicalResources/prinparlat/id/> .
+@prefix prinparlat: <http://lila-erc.eu/ontologies/prinparlat/> .
+@prefix paralex: <https://www.paralex-standard.org/paralex_ontology.xml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix morph: <https://ontolex.github.io/morph/> .
+@prefix lila: <http://lila-erc.eu/ontologies/lila/> .
+@prefix lila_lemma: <http://lila-erc.eu/data/id/lemma/> .
+@prefix oa: <https://www.w3.org/ns/oa#> .
+@prefix unimorph: <http://purl.org/olia/unimorph.owl#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+
+####################
+# PRINPARLAT EXTENSION #
+####################
+
+##### CLASSES #####
+
+prinparlat:Flexeme a owl:Class ;
+	rdfs:label "Flexeme" ;
+	rdfs:comment "Flexemes are abstract lexical units characterized in terms of form, as opposed to lexemes, that are characterized in terms of meaning (cf. Fradin & Kerleroux 2003). For instance, the Latin word meaning \'keep away\' displays different form variants, with the sequence \"abarc\" (prs.act.inf \"abarcere\", fut.act.ind.3.sg \"abarcebit\") or with the sequence \"aberc\" (prs.act.inf \"abercere\", prf.act.ind.1.sg \"abalienaui\"). Since the meaning is the same, all these variants belong to the same lexeme. However, there are two flexemes to account for the difference of form: one flexeme groups the forms displaying the sequence \"abarc\" (\"abarcere\" and \"abarcebit\"), the other one groups the forms displaying the sequence \"aberc\" (\"abercere\" and \"abercebit\")." ;
+	rdfs:subClassOf ontolex:LexicalEntry .
+
+prinparlat:Pattern a owl:Class ;
+	rdfs:label "Pattern" ;
+	rdfs:comment "Patterns are the expression of the formal alternation between two wordforms. For instance, between the wordforms \"amare\" (\'love\', prs.act.inf) and \"amabit\" (fut.act.ind.3.sg), the alternation pattern consists in replacing the sequence \"re\" with the sequence \"bit\" at the end of the wordform." .
+
+prinparlat:Stem a owl:Class ;
+	rdfs:label "Stem" ;
+	rdfs:comment "The stem on which a given wordform is built, according to the segmentation provided by Lemlat. For instance, \"am\" in \"amare\" (\'love\', prs.act.inf)." ;
+	rdfs:subClassOf paralex:OrthMorph .
+
+prinparlat:Ending a owl:Class ;
+	rdfs:label "Ending" ;
+	rdfs:comment "The ending displayed by a given wordform, according to the segmentation provided by Lemlat. For instance, \"are\" in \"amare\" (\'love\', prs.act.inf)." ;
+	rdfs:subClassOf paralex:OrthMorph .
+
+prinparlat:StemType a owl:Class ;
+	rdfs:label "Stem Type" ;
+	rdfs:comment "The type of a given stem, on the basis of the set of cells that are built on that stem. For instance, Present Stem, on which wordforms of the present system are built." .
+
+##### OBJECT PROPERTIES #####
+
+prinparlat:flexeme a owl:ObjectProperty ;
+	rdfs:label "flexeme" ;
+	rdfs:comment "Property that connects Forms to the Flexemes they belong to." ;
+	rdfs:subPropertyOf prinparlat:isLexicalFormOf ;
+	rdfs:range prinparlat:Flexeme .
+
+prinparlat:isLexicalFormOf a owl:ObjectProperty ;
+	rdfs:label "is lexical form of" ;
+	rdfs:comment "Property that connects Forms to the lexical items they belong to. This is defined as the inverse property of ontolex:lexicalForm, allowing for the inference of the lexical forms of Flexemes in PrinParLat data." ;
+	owl:inverseOf ontolex:lexicalForm .
+
+prinparlat:pattern a owl:ObjectProperty ;
+	rdfs:label "pattern" ;
+	rdfs:comment "Property that connects items to the Patterns they refer to." ;
+	rdfs:range prinparlat:Pattern .
+
+prinparlat:cell_left a owl:ObjectProperty ;
+	rdfs:label "cell (left)" ;
+	rdfs:comment "Property that connects a Pattern to the cell to which the wordform on the left refers." ;
+	rdfs:subPropertyOf paralex:cell ;
+	rdfs:domain prinparlat:Pattern .
+
+prinparlat:cell_right a owl:ObjectProperty ;
+	rdfs:label "cell (right)" ;
+	rdfs:comment "Property that connects a Pattern to the cell to which the wordform on the right refers." ;
+	rdfs:subPropertyOf paralex:cell ;
+	rdfs:domain prinparlat:Pattern .
+
+prinparlat:isFlexemeOf a owl:ObjectProperty ;
+	rdfs:label "is flexeme of" ;
+	rdfs:comment "Property that connects Flexemes to the Lexemes they map to." ;
+	rdfs:domain prinparlat:Flexeme ;
+	rdfs:range prinparlat:Lexeme ;
+	rdfs:subPropertyOf vartrans:lexicalRel .
+
+prinparlat:hasFlexeme a owl:ObjectProperty ;
+	rdfs:label "has flexeme" ;
+	rdfs:comment "Property that connects Lexemes to the Flexemes they map to." ;
+	rdfs:subPropertyOf vartrans:lexicalRel ;
+	owl:inverseOf prinparlat:isFlexemeOf .
+
+prinparlat:stemType a owl:ObjectProperty ;
+	rdfs:label "stem type" ;
+	rdfs:comment "Property that connects stems to their Stem Type." ;
+	rdfs:domain prinparlat:Stem ;
+	rdfs:range prinparlat:StemType .
+
+##### DATATYPE PROPERTIES #####
+
+prinparlat:alternation a owl:DatatypeProperty ;
+	rdfs:label "alternation" ;
+	rdfs:comment "Property that expresses the formal alternation displayed by a Pattern, as output by the Qumin toolkit (Beniamine 2018). The format is inspired to the SPE rule notation (i.e., the one used by Chomsky and Halle in \"The Sound Pattern of English\"). For instance, between the wordforms \"amare\" (\'love\', prs.act.inf) and \"amabit\" (fut.act.ind.3.sg), the alternation pattern output by Qumin is \"re ⇌ bit / X*[-rnd]_\" " ;
+	rdfs:range rdfs:Literal .
+
+##### INDIVIDUALS #####
+
+prinparlat:present_stem a prinparlat:StemType ;
+	rdfs:label "present stem" ;
+	rdfs:comment "The stem on which wordforms of the present system are built.".
+
+prinparlat:perfect_stem a prinparlat:StemType ;
+	rdfs:label "perfect stem" ;
+	rdfs:comment "The stem on which wordforms of the perfect system are built.".
+
+prinparlat:perfect_participle_stem a prinparlat:StemType ;
+	rdfs:label "perfect participle stem" ;
+	rdfs:comment "The stem on which wordforms of the perfect participle are built.".
+
+prinparlat:future_participle_stem a prinparlat:StemType ;
+	rdfs:label "future participle stem" ;
+	rdfs:comment "The stem on which wordforms of the future participle are built.".

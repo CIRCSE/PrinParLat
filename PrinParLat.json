@@ -1,0 +1,452 @@
+{
+  "title": "PrinParLat",
+  "profile": "data-package",
+  "licenses": [
+    {
+      "name": "CC BY-SA 4.0 DEED",
+      "title": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Matteo Pellegrini",
+      "role": "author"
+    },
+    {
+      "title": "Marco Passarotti",
+      "role": "contributor"
+    },
+    {
+      "title": "Francesco Mambrini",
+      "role": "contributor"
+    },
+    {
+      "title": "Giovanni Moretti",
+      "role": "contributor"
+    }
+  ],
+  "keywords": [
+    "Latin",
+    "verbs",
+    "principal parts",
+    "inflection classes"
+  ],
+  "version": "1.1",
+  "resources": [
+    {
+      "name": "forms",
+      "type": "table",
+      "title": "Inflected forms",
+      "path": "forms.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "forms-schema",
+        "fields": [
+          {
+            "name": "form_id",
+            "type": "string",
+            "title": "Form table row identifiers",
+            "description": "These identifiers are specific to form, lexeme, cell triples.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "lexeme",
+            "type": "string",
+            "title": "Reference to a lexeme identifier",
+            "description": "Lexeme identifiers must be unique to paradigms.",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#lexeme"
+          },
+          {
+            "name": "cell",
+            "type": "string",
+            "title": "Reference to a cell identifier",
+            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#cell"
+          },
+          {
+            "name": "orth_form",
+            "type": "string",
+            "title": "Inflected form (orthographic)",
+            "description": "The form, given orthographically",
+            "missingValues": [
+              "#DEF#"
+            ],
+            "constraints": {
+              "pattern": "(a|b|c|d|e|f|g|h|i|k|l|m|n|o|p|q|r|s|t|u|x|y|z)+"
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#orth_form"
+          },
+          {
+            "name": "analysed_orth_form",
+            "type": "string",
+            "title": "Inflected form with analysis, such as segmentation markers (orthographic)",
+            "description": "The form, given orthographically, with markers for analysis.",
+            "missingValues": [
+              "#DEF#"
+            ],
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#analysed_orth_form"
+          },
+          {
+            "name": "flexeme",
+            "type": "string",
+            "title": "Flexeme identifier",
+            "description": "Reference to identifier(s) of the flexeme(s) to which the forms can be assigned, colon separated."
+          }
+        ],
+        "primaryKey": [
+          "form_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "cell"
+            ],
+            "reference": {
+              "resource": "cells",
+              "fields": [
+                "cell_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "lexeme"
+            ],
+            "reference": {
+              "resource": "lexemes",
+              "fields": [
+                "lexeme_id"
+              ]
+            }
+          }
+        ]
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Form"
+    },
+    {
+      "name": "cells",
+      "type": "table",
+      "title": "Paradigm cells",
+      "path": "cells.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "cells-schema",
+        "fields": [
+          {
+            "name": "cell_id",
+            "type": "string",
+            "title": "Cell identifier",
+            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "(iprf|pprf|fprf|pass|sbjv|ptcp|prs|fut|prf|act|ind|imp|inf|sup|ger|gdv|nom|gen|dat|acc|voc|abl|sg|pl|1|2|3|m|f|n)(\\.(iprf|pprf|fprf|pass|sbjv|ptcp|prs|fut|prf|act|ind|imp|inf|sup|ger|gdv|nom|gen|dat|acc|voc|abl|sg|pl|1|2|3|m|f|n))*"
+            }
+          },
+          {
+            "name": "unimorph",
+            "type": "string",
+            "title": "Cell in unimorph format",
+            "description": "The cell, written following the unimorph schema",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#unimorph"
+          }
+        ],
+        "primaryKey": [
+          "cell_id"
+        ],
+        "foreignKeys": []
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Cell"
+    },
+    {
+      "name": "features-values",
+      "type": "table",
+      "title": "Grammatical features values",
+      "path": "features-values.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "features-values-schema",
+        "fields": [
+          {
+            "name": "value_id",
+            "type": "string",
+            "title": "Grammatical Feature value identifier",
+            "description": "Identifier for the grammatical feature value (as found in the cell)",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "title": "label for this row",
+            "description": "A human readable label for the row.",
+            "rdfProperty": "http://www.w3.org/2000/01/rdf-schema#label"
+          },
+          {
+            "name": "feature",
+            "type": "string",
+            "title": "feature",
+            "description": "The name of the dimension of this feature, eg. case, tense, modality, voice, force, gender, evidentiality, person, number, polarity...",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#feature"
+          },
+          {
+            "name": "canonical_order",
+            "type": "integer",
+            "title": "Sorting order for visual presentation",
+            "description": "The order in which items are canonically presented. Use integers to represent relative order, order is used per-item.",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#canonical_order"
+          }
+        ],
+        "primaryKey": [
+          "value_id"
+        ]
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#FeatureValue"
+    },
+    {
+      "name": "flexemes",
+      "type": "table",
+      "path": "flexemes.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "flexeme_id",
+            "type": "string",
+            "title": "Flexeme identifier",
+            "description": "Identifier of the flexeme."
+          },
+          {
+            "name": "inflection_class",
+            "type": "string",
+            "title": "Inflection class identifier",
+            "description": "This identifier groups together lexemes of the same inflection class.",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#inflection_class"
+          },
+          {
+            "name": "lila_id_lemma",
+            "type": "integer",
+            "title": "lemma ID",
+            "description": "ID of the corresponding lemma in the LiLa Knowledge Base."
+          },
+          {
+            "name": "hasInflectionType",
+            "type": "string",
+            "title": "Inflection Type",
+            "description": "Code corresponding to the Inflection Type (i.e., traditional, coarse-grained inflection class) assigned to the lemma in the LiLa Knowledge Base."
+          }
+        ],
+        "primaryKey": [
+          "flexeme_id"
+        ]
+      }
+    },
+    {
+      "name": "graphemes",
+      "type": "table",
+      "title": "Graphemes inventory",
+      "path": "graphemes.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "graphemes-schema",
+        "fields": [
+          {
+            "name": "grapheme_id",
+            "type": "string",
+            "title": "grapheme representation",
+            "description": "These identifiers are specific to graphemes.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            },
+            "rdfType": "http://linguistics-ontology.org/gold/2010/Grapheme"
+          },
+          {
+            "name": "canonical_order",
+            "type": "integer",
+            "title": "Sorting order for visual presentation",
+            "description": "The order in which items are canonically presented. Use integers to represent relative order, order is used per-item.",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#canonical_order"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "grapheme_id"
+        ]
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Grapheme"
+    },
+    {
+      "name": "inflectionclasses-patterns",
+      "type": "table",
+      "path": "inflectionclasses-patterns.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "inflectionclasses-patterns_id",
+            "type": "integer",
+            "title": "ID",
+            "description": "Identifier for the row."
+          },
+          {
+            "name": "inflection_class",
+            "type": "string",
+            "title": "Inflection class identifier",
+            "description": "This identifier groups together lexemes of the same inflection class.",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#inflection_class"
+          },
+          {
+            "name": "pattern",
+            "type": "string",
+            "title": "Pattern identifier",
+            "description": "Reference to the identifier of the alternation pattern."
+          }
+        ],
+        "primaryKey": [
+          "inflectionclasses-patterns_id"
+        ]
+      }
+    },
+    {
+      "name": "lexemes",
+      "type": "table",
+      "title": "Lexemes",
+      "path": "lexemes.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "lexemes-schema",
+        "fields": [
+          {
+            "name": "lexeme_id",
+            "type": "string",
+            "title": "Identifier for the lexeme",
+            "description": "Lexeme identifiers. Often, they are identical to the label (lemma). However, they must be unique to paradigms, distinguishing homonyms with different inflection. For example, the animal mouse/mice and the computer peripheric mouse/mouses would both have the label 'mouse' but could be identified by the lexeme identifiers mouse_1 and mouse_2.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "title": "label for this row",
+            "description": "A human readable label for the row.",
+            "rdfProperty": "http://www.w3.org/2000/01/rdf-schema#label"
+          }
+        ],
+        "primaryKey": [
+          "lexeme_id"
+        ],
+        "foreignKeys": [],
+        "foreignKey": []
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Lexeme"
+    },
+    {
+      "name": "patterns",
+      "type": "table",
+      "path": "patterns.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "pattern_id",
+            "type": "string",
+            "title": "Pattern ID",
+            "description": "Identifier of the alternation pattern."
+          },
+          {
+            "name": "pattern_alternation",
+            "type": "string",
+            "title": "Alternation pattern",
+            "description": "Alternation pattern between two cells."
+          },
+          {
+            "name": "cell_left",
+            "type": "string",
+            "title": "Left cell",
+            "description": "Reference to the identifier of the cells on the left for the relevant alternation pattern."
+          },
+          {
+            "name": "cell_right",
+            "type": "string",
+            "title": "Right cell",
+            "description": "Reference to the identifier of the cells on the right for the relevant alternation pattern."
+          }
+        ],
+        "primaryKey": [
+          "pattern_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "cell_left"
+            ],
+            "reference": {
+              "resource": "cells",
+              "fields": [
+                "cell_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "cell_right"
+            ],
+            "reference": {
+              "resource": "cells",
+              "fields": [
+                "cell_id"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "citation": "Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2023. PrinParLat. Online resource.",
+  "id": "http://doi.org/10.5281/zenodo.8027826",
+  "basepath": "C:\\Users\\matteo.pellegrini\\OneDrive - Università Cattolica del Sacro Cuore\\Desktop\\lavoro\\Gogs repo\\PrinParLat"
+}
