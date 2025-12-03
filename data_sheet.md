@@ -1,6 +1,6 @@
 Data set name: PrinParLat
 
-Citation (if available): Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2025. PrinParLat 2.0. Online resource
+Citation (if available): Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2025. PrinParLat v2. Online resource
 
 Data set developers: Matteo Pellegrini, Marco Passarotti, Francesco Mambrini, Giovanni Moretti
 
@@ -132,7 +132,7 @@ The dataset is released both as a set of .csv files following the Paralex standa
 
 DOI: http://doi.org/10.5281/zenodo.8027826
 
-This is version 2.0, that also includes nouns and adjectives, in addition to verbs that were included in version 1.
+This is version 2, that also includes nouns and adjectives, in addition to verbs that were included in version 1.
 
 **When will the dataset be distributed?**
 
