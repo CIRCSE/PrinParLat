@@ -53,7 +53,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 51,ere ⇌ csī / [-spread -lat]*[f-p-s-t][l-r]u_,prs.act.inf,prf.act.ind.1.sg
 52,ere ⇌  / ai_,prs.act.inf,prf.act.ind.1.sg
 53,ge_cere ⇌ _ī / [b-d-e-f-o-p-s-t-z-ē-ō]*[a-o-u][l-r]_s_,prs.act.inf,prf.act.ind.1.sg
-54,i_ere ⇌ e_sī / [-spread -lat -labdent]*[-spread -labdent -low][b-d-l-p-r-s-t-z]_[b-c-g-k-m-p-q]_,prs.act.inf,prf.act.ind.1.sg
 55,iner_ ⇌ _uī / [-spread -labdent]*l_e_,prs.act.inf,prf.act.ind.1.sg
 56,_re ⇌ s_ / [-spread -lat -labdent]+[e-i-n-r-ē-ī][c-k-p-q]_ī_,prs.act.inf,prf.act.ind.1.sg
 57,er_cere ⇌ _ī / [-spread -lat -labdent]*ha_es_,prs.act.inf,prf.act.ind.1.sg
@@ -102,7 +101,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 100,_ēre ⇌ pe_ī / [d-e-s-t-z-ē]*_p[e-o]nd_,prs.act.inf,prf.act.ind.1.sg
 101,_ēre ⇌ to_ī / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*_tond_,prs.act.inf,prf.act.ind.1.sg
 102,es_ere ⇌ _sī / [-spread -lat -low]*flu_c_,prs.act.inf,prf.act.ind.1.sg
-103,all_r_ ⇌ _f_llī / f_e_e_,prs.act.inf,prf.act.ind.1.sg
 104,dēre ⇌ isī / gau_,prs.act.inf,prf.act.ind.1.sg
 105,gi_ner_ ⇌ __nuī / [-spread -lat -labdent -low]*_g_e_,prs.act.inf,prf.act.ind.1.sg
 106,ce_cere ⇌ _ī / [e-i-n-r-ē-ī]*rau_s_,prs.act.inf,prf.act.ind.1.sg
@@ -452,7 +450,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 450,_ēbit ⇌ pe_ī / [d-e-s-t-z-ē]*_p[e-o]nd_,fut.act.ind.3.sg,prf.act.ind.1.sg
 451,_ēbit ⇌ to_ī / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*_tond_,fut.act.ind.3.sg,prf.act.ind.1.sg
 452,es_et ⇌ _sī / [-spread -lat -low]*flu_c_,fut.act.ind.3.sg,prf.act.ind.1.sg
-453,a_et ⇌ efe_ī / f_ll_,fut.act.ind.3.sg,prf.act.ind.1.sg
 454,dēb_t ⇌ _sī / gau_i_,fut.act.ind.3.sg,prf.act.ind.1.sg
 455,gi_n_t ⇌ __nuī / [-spread -lat -labdent -low]*_g_e_,fut.act.ind.3.sg,prf.act.ind.1.sg
 456,ce_cet ⇌ _ī / [e-i-n-r-ē-ī]*rau_s_,fut.act.ind.3.sg,prf.act.ind.1.sg
@@ -716,10 +713,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 714,ī_ī ⇌ iētu_ / X*[a-e-m-n-o-r-ā-ē-ō][c-d-g-k-l-r-s-t-z]_r_,prs.pass.inf,fut.pass.ind.3.sg
 715,ī ⇌ ētur / [-spread]*[-spread -lat -labdent][-nas -lat -labdent -low]_,prs.pass.inf,fut.pass.ind.3.sg
 716,ī ⇌ iētur / [-spread -lat -labdent]*[b-d-h-m-n-p-r-s-t-z-th-ph][a-e-o][d-r-s-t-z]_,prs.pass.inf,fut.pass.ind.3.sg
-717,_ī_ī ⇌ bē_itu_ / o_b_r_,prs.pass.inf,fut.pass.ind.3.sg
-718,ār ⇌ au / [-spread -nas -lat -labdent -low]*[-nas -labdent -low][e-i-m-n-o-r-u-y-ē-ī-ō-ū][-spread -labdent -low][b-d-l-p-r-s-t-z-th-ph]_ī,prs.pass.inf,prf.act.ind.1.sg
-719,īr ⇌ iu / ob_ī,prs.pass.inf,prf.act.ind.1.sg
-720,īr ⇌ i / ob_ī,prs.pass.inf,prf.act.ind.1.sg
 721,rī_ī ⇌ _tum / [-spread -nas -lat -labdent]*[e-o]_r_,prs.pass.inf,prf.pass.ptcp.nom.n.sg
 722,tī ⇌ sum / [-spread -lat -labdent]*[e-i-o-u]_,prs.pass.inf,prf.pass.ptcp.nom.n.sg
 723,ārī ⇌ atum / X*[-low]_,prs.pass.inf,prf.pass.ptcp.nom.n.sg
@@ -773,7 +766,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 771,ī ⇌ cturum / [b-d-e-p-r-s-t-z-ē]*fru_,prs.pass.inf,fut.act.ptcp.nom.n.sg
 772,adī ⇌ essurum / [-spread -lat -labdent]*gr_,prs.pass.inf,fut.act.ptcp.nom.n.sg
 773,ē_ī ⇌ tu_um / tu_r_,prs.pass.inf,fut.act.ptcp.nom.n.sg
-774,ābit_r ⇌ a_ī / [-spread -nas -lat -labdent -low]*[-nas -labdent -low][e-i-m-n-o-r-u-y-ē-ī-ō-ū][-spread -labdent -low][b-d-l-p-r-s-t-z-th-ph]_u_,fut.pass.ind.3.sg,prf.act.ind.1.sg
 775,iē_r ⇌ _m / [-spread -lat -labdent]*[e-o]r_tu_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
 776,tēt_r ⇌ s_m / [-spread -lat -labdent]*[e-i-o-u]_u_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
 777,ābi_r ⇌ a_m / X*[-low]+_tu_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
@@ -799,7 +791,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 797,adiēt_r ⇌ ess_m / [-spread -lat -labdent]*gr_u_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
 798,ciscē_r ⇌ _m / inul_tu_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
 799,tēt_r ⇌ ss_m / n?[i-u]_u_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
-800,bī_r ⇌ _m / o_bitu_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
 801,ēbi_r ⇌ _m / tu_tu_,fut.pass.ind.3.sg,prf.pass.ptcp.nom.n.sg
 802,iē_ ⇌ _um / [-approx -spread -lat -labdent]*[e-o]r_tur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
 803,tēt_ ⇌ s_um / [-spread -lat -labdent]*[i-u]_ur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
@@ -823,7 +814,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 821,diēt_ ⇌ s_um / [e-r-ē][c-e-g-k-ē][d-s-t-z]or_ur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
 822,ē_ ⇌ c_um / [b-d-e-p-r-s-t-z-ē]*fru_tur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
 823,adiēt_ ⇌ ess_um / [-spread -lat -labdent]*gr_ur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
-824,bī_ ⇌ _um / o_bitur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
 825,ēbi_ ⇌ _um / tu_tur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
 826,tēt_ ⇌ ss_um / u_ur_,fut.pass.ind.3.sg,fut.act.ptcp.nom.n.sg
 827,_ī ⇌ t_m / X*[-spread -labdent]_u_,prf.act.ind.1.sg,prf.pass.ptcp.nom.n.sg
@@ -873,7 +863,6 @@ pattern_id,pattern_alternation,cell_left,cell_right
 871,pe_ī ⇌ _sum / _pul_,prf.act.ind.1.sg,prf.pass.ptcp.nom.n.sg
 872,i_ī ⇌ a_um / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*[b-d-e-p-r-s-t-z-ē]*st_t_,prf.act.ind.1.sg,prf.pass.ptcp.nom.n.sg
 873,d_ī ⇌ s_m / pertae_u_,prf.act.ind.1.sg,prf.pass.ptcp.nom.n.sg
-874,e_igī ⇌ ac_um / t_t_,prf.act.ind.1.sg,prf.pass.ptcp.nom.n.sg
 875,_ī ⇌ t_rum / X*[-spread -labdent]_u_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 876,sī ⇌ turum / [-spread]*[+son][b-c-d-g-k-l-m-n-p-q-r-s-t-z]_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 877,dī ⇌ turum / [-spread -lat -labdent]+[d-e-z-ē][e-i-n-r-ē-ī]_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
@@ -916,21 +905,16 @@ pattern_id,pattern_alternation,cell_left,cell_right
 914,pe_dī ⇌ _surum / [d-e-s-t-z-ē]*_p[e-o]n_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 915,to_dī ⇌ _surum / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*_ton_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 916,r_ī ⇌ stu_m / [c-d-e-g-k-s-t-z-ē]*to_ru_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
-917,fe_el_ī ⇌ _a_surum / _f_l_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 918,idī ⇌ asurum / [e-i-o-r-u-y-ē-ī-ō-ū][c-d-e-g-k-n-s-t-z-ē]c_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 919,pe_e_ī ⇌ _a_iturum / _p_[c-d-g-k-r-s-t-z]+_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 920,pe_ī ⇌ _iturum / _ped_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 921,pe_ī ⇌ _surum / _pul_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 922,d_ī ⇌ s_rum / pertae_u_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 923,ī ⇌ iurum / suffics_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
-924,e_igī ⇌ ac_urum / t_t_,prf.act.ind.1.sg,fut.act.ptcp.nom.n.sg
 925, ⇌ ur / X*[-spread -labdent][s-t]_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
-926,_ ⇌ i_ur / [-spread -lat]*[-spread -labdent][-spread -labdent -low]_[-spread -labdent]+_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
 927, ⇌ r / [b-c-d-e-g-k-o-p-q-s-t-y-z-ē-ō]*[e-m-n-ē]mortu_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
 928,u_ ⇌ o_ur / c_ncubit_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
 929,_ ⇌ i_r / [d-e-i-n-r-s-t-z-ē-ī]*[-spread -lat -labdent -high]*mor_tu_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
-930,_ ⇌ i_ur / [-spread -lat]*[b-d-m-n-p-s-t-z][b-d-e-g-i-o-r-u-y-z-ē-ī-ō-ū][-spread -nas -lat -labdent -low]_[-spread -nas -lat -labdent]+_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
-931,sci_ ⇌ _ur / quie_t_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
 932,t ⇌ r / statu_um,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
 933,_ ⇌ i_ru / [-spread -lat]*[b-d-e-i-m-n-p-r-s-t-y-z-ē-ī][-spread -nas -lat -labdent -low]+_[-spread -nas -lat -labdent]+_m,prf.pass.ptcp.nom.n.sg,fut.act.ptcp.nom.n.sg
 934,_um ⇌ u_ / [-spread -labdent -low]*[b-d-l-p-r-s-t-z][i-u][b-g]_it_,prf.pass.ptcp.nom.n.sg,prf.act.ind.3.sg
@@ -938,3 +922,854 @@ pattern_id,pattern_alternation,cell_left,cell_right
 936,_urum ⇌ u_ / [-spread -labdent -low]*[b-d-l-p-r-s-t-z][i-u][b-g]_it_,fut.act.ptcp.nom.n.sg,prf.act.ind.3.sg
 937,_urum ⇌ i_ / confu_t_,fut.act.ptcp.nom.n.sg,prf.act.ind.3.sg
 938,sur_m ⇌ d_it / tae_u_,fut.act.ptcp.nom.n.sg,prf.act.ind.3.sg
+939,ībit ⇌ iī / [-spread -lat -labdent]*_,fut.act.ind.3.sg,fut.act.ind.3.sg
+940,ībit ⇌ iuī / [-spread -lat -labdent]*_,fut.act.ind.3.sg,fut.act.ind.3.sg
+941,besse ⇌ fuī / a_,prs.act.inf,prs.act.inf
+942,besse ⇌ futurum / a_,prs.act.inf,prs.act.inf
+943,berit ⇌ fuī / a_,fut.act.ind.3.sg,fut.act.ind.3.sg
+944,beri_ ⇌ fu_urum / a_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+945,besse ⇌ ufuī / a_,prs.act.inf,prs.act.inf
+946,besse ⇌ ufuturum / a_,prs.act.inf,prs.act.inf
+947,berit ⇌ ufuī / a_,fut.act.ind.3.sg,fut.act.ind.3.sg
+948,beri_ ⇌ ufu_urum / a_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+949,_ā_e ⇌ t__um / [a-d-e-z-ā-ē]*iu_u_r_,prs.act.inf,prs.act.inf
+950,u_ābi_ ⇌ __urum / [a-d-e-z-ā-ē]*i_u_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+951,desse ⇌ ffuī / a_,prs.act.inf,prs.act.inf
+952,desse ⇌ ffuturum / a_,prs.act.inf,prs.act.inf
+953,derit ⇌ ffuī / a_,fut.act.ind.3.sg,fut.act.ind.3.sg
+954,de_it ⇌ ffutu_um / a_r_,fut.act.ind.3.sg,fut.act.ind.3.sg
+955,fferre ⇌ ttulī / a_,prs.act.inf,prs.act.inf
+956,fferre ⇌ llatum / a_,prs.act.inf,prs.act.inf
+957,ffer_e ⇌ llatu_um / a_r_,prs.act.inf,prs.act.inf
+958,ffere_ ⇌ t_ulī / a_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+959,ffere_ ⇌ lla_um / a_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+960,ffere_ ⇌ lla_urum / a_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+961,t_lī ⇌ lla_m / [-spread -lat -labdent -low]*[a-e]_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+962,t_lī ⇌ lla_rum / [-spread -lat -labdent -low]*[a-e]_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+963,icer_ ⇌ _csī / [-spread -lat -labdent]*[b-d-e-l-m-n-o-p-r-s-t-z-ē-ō][b-d-l-p-r-s-t-z]_e_,prs.act.inf,prs.act.inf
+964,p_nere ⇌ d_siuī / a_po_,prs.act.inf,prs.act.inf
+965,p_nere ⇌ d_situm / a_po_,prs.act.inf,prs.act.inf
+966,p_ne_e ⇌ d_situ_um / a_po_r_,prs.act.inf,prs.act.inf
+967,p_net ⇌ d_siuī / a_po_,fut.act.ind.3.sg,fut.act.ind.3.sg
+968,p_ne_ ⇌ d_si_um / a_po_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+969,p_ne_ ⇌ d_si_urum / a_po_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+970,p_nere ⇌ d_siī / a_po_,prs.act.inf,prs.act.inf
+971,p_net ⇌ d_siī / a_po_,fut.act.ind.3.sg,fut.act.ind.3.sg
+972,nere ⇌ siuī / [-spread -lat -labdent]*po_,prs.act.inf,prs.act.inf
+973,net ⇌ siuī / [-spread -lat -labdent]*po_,fut.act.ind.3.sg,fut.act.ind.3.sg
+974,nere ⇌ siī / [a-o][b-p]po_,prs.act.inf,prs.act.inf
+975,net ⇌ siī / [a-o][b-p]po_,fut.act.ind.3.sg,fut.act.ind.3.sg
+976,cces_ere ⇌ _uī / a[d-s-t-z]si_c_,prs.act.inf,prs.act.inf
+977,cces_et ⇌ _uī / a[d-s-t-z]si_c_,fut.act.ind.3.sg,fut.act.ind.3.sg
+978,ferre ⇌ stulī / ab_,prs.act.inf,prs.act.inf
+979,fere_ ⇌ s_ulī / ab_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+980,s_lī ⇌ la_m / [-spread -lat -labdent -low]*[a-d-e-z-ā-ē][b-d-e-i-r-y-z-ē-ī]_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+981,s_lī ⇌ la_rum / [-spread -lat -labdent -low]*[a-d-e-z-ā-ē][b-d-e-i-r-y-z-ē-ī]_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+982,_ferre ⇌ bst_lī / [-spread -lat -labdent -low]*a_u_,prs.act.inf,prs.act.inf
+983,ufere_ ⇌ bs_ulī / [-spread -lat -labdent -low]*a_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+984,refer_ ⇌ _ttulī / [-spread -lat -labdent -low]*_re_,prs.act.inf,prs.act.inf
+985,refer_ ⇌ _llatum / [-spread -lat -labdent -low]*_re_,prs.act.inf,prs.act.inf
+986,ef_r_e ⇌ _llatu_um / [-spread -lat -labdent -low]*r_e_r_,prs.act.inf,prs.act.inf
+987,refe__ ⇌ _t_ulī / [-spread -lat -labdent -low]*_re_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+988,refe__ ⇌ _lla_um / [-spread -lat -labdent -low]*_re_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+989,refe__ ⇌ _lla_urum / [-spread -lat -labdent -low]*_re_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+990,rce_e ⇌ _sī / co[m-n]p[a-e]_r_,prs.act.inf,prs.act.inf
+991,ce_e ⇌ su_um / co[m-n]par_r_,prs.act.inf,prs.act.inf
+992,cet ⇌ sī / co[m-n]p[a-e]r_,fut.act.ind.3.sg,fut.act.ind.3.sg
+993,cet ⇌ surum / co[m-n]par_,fut.act.ind.3.sg,fut.act.ind.3.sg
+994,n_lī ⇌ lla_m / [-spread -nas -lat -labdent -low]*[e-i-o-u]_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+995,n_lī ⇌ lla_rum / [-spread -nas -lat -labdent -low]*[e-i-o-u]_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+996,nere ⇌ ptum / contem_,prs.act.inf,prs.act.inf
+997,ne_e ⇌ ptu_um / contem_r_,prs.act.inf,prs.act.inf
+998,ne_ ⇌ p_um / contem_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+999,ne_ ⇌ p_urum / contem_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1000,nere ⇌ sī / contemp_,prs.act.inf,prs.act.inf
+1001,net ⇌ sī / contemp_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1002,nere ⇌ stum / [-spread -lat -labdent]*po_,prs.act.inf,prs.act.inf
+1003,ne_ ⇌ s_um / [-spread -lat -labdent]*po_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1004,nere ⇌ ī / [b-d-e-p-r-s-t-z-ē]*si_,prs.act.inf,prs.act.inf
+1005,net ⇌ ī / [b-d-e-p-r-s-t-z-ē]*si_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1006,nere ⇌ uī / [b-d-e-p-r-s-t-z-ē]*si_,prs.act.inf,prs.act.inf
+1007,net ⇌ uī / [b-d-e-p-r-s-t-z-ē]*si_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1008,fferre ⇌ stulī / di_,prs.act.inf,prs.act.inf
+1009,ffere_ ⇌ s_ulī / di_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1010,fferre ⇌ tulī / di_,prs.act.inf,prs.act.inf
+1011,ffere_ ⇌ _ulī / di_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1012,csferre ⇌ latum / e_,prs.act.inf,prs.act.inf
+1013,csfer_e ⇌ latu_um / e_r_,prs.act.inf,prs.act.inf
+1014,ecsfer__ ⇌ _la_um / _e_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1015,csfe_et ⇌ latu_um / e_r_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1016,cs_lī ⇌ la_m / e_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+1017,cs_lī ⇌ la_rum / e_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+1018,efferr_ ⇌ _cstulī / _e_,prs.act.inf,prs.act.inf
+1019,effer__ ⇌ _cs_ulī / _e_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1020,_ol_ere ⇌ sus_u_ī / [c-d-e-g-s-t-z-ē]*_t_l_,prs.act.inf,prs.act.inf
+1021,_ol_et ⇌ sus_u_ī / [c-d-e-g-s-t-z-ē]*_t_l_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1022,es_ere ⇌ _sum / flu_c_,prs.act.inf,prs.act.inf
+1023,es_et ⇌ _sum / flu_c_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1024,es_ere ⇌ _tum / flu_c_,prs.act.inf,prs.act.inf
+1025,es_e_e ⇌ _tu_um / flu_c_r_,prs.act.inf,prs.act.inf
+1026,es_e_ ⇌ __um / flu_c_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1027,es_e_ ⇌ __urum / flu_c_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1028,bēre ⇌ ssī / [b-d-e-f-i-p-r-s-t-y-z-ē-ī]*iu_,prs.act.inf,prs.act.inf
+1029,bēre ⇌ ssum / [b-d-e-f-i-p-r-s-t-y-z-ē-ī]*iu_,prs.act.inf,prs.act.inf
+1030,bē_e ⇌ ssu_um / [b-d-e-f-i-p-r-s-t-y-z-ē-ī]*iu_r_,prs.act.inf,prs.act.inf
+1031,bēbit ⇌ ssī / [b-d-e-f-i-p-r-s-t-y-z-ē-ī]*iu_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1032,bēbit ⇌ ssum / [b-d-e-f-i-p-r-s-t-y-z-ē-ī]*iu_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1033,bēbit ⇌ ssurum / [b-d-e-f-i-p-r-s-t-y-z-ē-ī]*iu_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1034,gēre ⇌ tum / indul_,prs.act.inf,prs.act.inf
+1035,gē_e ⇌ tu_um / indul_r_,prs.act.inf,prs.act.inf
+1036,gēbi_ ⇌ _um / indul_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1037,gēbi_ ⇌ _urum / indul_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1038,bescere ⇌ ffuī / o_,prs.act.inf,prs.act.inf
+1039,besce_e ⇌ ffutu_um / o_r_,prs.act.inf,prs.act.inf
+1040,bescet ⇌ ffuī / o_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1041,besce_ ⇌ ffu_urum / o_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1042,fferre ⇌ btulī / o_,prs.act.inf,prs.act.inf
+1043,fferre ⇌ blatum / s?[o-u]_,prs.act.inf,prs.act.inf
+1044,ffer_e ⇌ blatu_um / s?[o-u]_r_,prs.act.inf,prs.act.inf
+1045,ffere_ ⇌ b_ulī / o_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1046,ffere_ ⇌ bla_um / s?[o-u]_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1047,ffere_ ⇌ bla_urum / s?[o-u]_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1048,icīr_ ⇌ _ctum / pell_e_,prs.act.inf,prs.act.inf
+1049,i_ī_e ⇌ e_tu_um / pell_c_r_,prs.act.inf,prs.act.inf
+1050,ne_e ⇌ stu_um / [e-r-ē]*po_r_,prs.act.inf,prs.act.inf
+1051,ne_ ⇌ s_urum / [e-r-ē]*po_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1052,ā_e ⇌ u_um / pot_r_,prs.act.inf,prs.act.inf
+1053,tābi_ ⇌ _urum / po_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1054,besse ⇌ ffuī / su_,prs.act.inf,prs.act.inf
+1055,besse ⇌ ffuturum / su_,prs.act.inf,prs.act.inf
+1056,berit ⇌ ffuī / su_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1057,beri_ ⇌ ffu_urum / su_t_,fut.act.ind.3.sg,fut.act.ind.3.sg
+1058,s_lī ⇌ bla_m / su_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+1059,s_lī ⇌ bla_rum / su_tu_,prf.act.ind.1.sg,prf.act.ind.1.sg
+1060,el_ ⇌ o_t / u_le_,prs.act.inf,prs.act.inf
+1061,el_e ⇌ o_uī / u_l_,prs.act.inf,prs.act.inf
+noun-0, ⇌ nis / X+o_,nom.sg,gen.sg
+noun-1, ⇌ is / X*[-nas -labdent][-spread -labdent -low]_,nom.sg,gen.sg
+noun-2,us ⇌ ī / X+_,nom.sg,gen.sg
+noun-3, ⇌ i / X*[-labdent][-lat -labdent -low]_s,nom.sg,gen.sg
+noun-4, ⇌ e / X+[-low]a_,nom.sg,gen.sg
+noun-5, ⇌ tis / X*[-labdent]X[-spread -lat -LAB -labdent]_,nom.sg,gen.sg
+noun-6, ⇌ ti / X+[-spread -labdent]_s,nom.sg,gen.sg
+noun-7,um ⇌ ī / X+[-low]_,nom.sg,gen.sg
+noun-8,o ⇌ inis / X*[-labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][b-c-d-g-k-m-n-p-q-t]_,nom.sg,gen.sg
+noun-9,e_ ⇌ i_is / X*[-spread -nas -labdent][-spread -labdent -low]_n_,nom.sg,gen.sg
+noun-10,ium ⇌ ī / X*[-low]_,nom.sg,gen.sg
+noun-11,ius ⇌ ī / X+[-low]_,nom.sg,gen.sg
+noun-12,u ⇌ oti / abnep_s,nom.sg,gen.sg
+noun-13, ⇌  / X*is,nom.sg,gen.sg
+noun-14,u ⇌ ū / X*[-labdent -low]_s,nom.sg,gen.sg
+noun-15, ⇌ ī / X*[-lat -low][e-i-o-u-y-ē-ī-ō-ū][l-r]_,nom.sg,gen.sg
+noun-16, ⇌ di / X+[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_s,nom.sg,gen.sg
+noun-17, ⇌ do / X*[-labdent]+[-cons]_s,nom.sg,gen.sg
+noun-18,on ⇌ ī / X*[-labdent -low]_,nom.sg,gen.sg
+noun-19,os ⇌ ī / X*[-labdent]+_,nom.sg,gen.sg
+noun-20,e_ ⇌ _is / [-spread]*[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][b-d-p-t]_r_,nom.sg,gen.sg
+noun-21,ēs ⇌ ae / X*[-labdent]+_,nom.sg,gen.sg
+noun-22,i ⇌ eō / X*[-lat -labdent][+cons -labdent -low]_s,nom.sg,gen.sg
+noun-23, ⇌ s / X*[-labdent][-low][e-i-o-u-y-ē-ī-ō-ū]_,nom.sg,gen.sg
+noun-24,ās ⇌ ae / [-labdent]+[-labdent -low]_,nom.sg,gen.sg
+noun-25,s ⇌ ī / [-spread]*[-spread -lat -labdent -low][i-u]ē_,nom.sg,gen.sg
+noun-26,e ⇌ i / X*[-labdent]+_s,nom.sg,gen.sg
+noun-27,i ⇌ o / a?[c-d-g-k-l-r-s-t-z]?[a-e-o][c-e-g-k-ē][s-t]_s,nom.sg,gen.sg
+noun-28, ⇌ os / X*[-lat -labdent][-spread -nas -labdent][e-i-m-n-r-y-ē-ī]_,nom.sg,gen.sg
+noun-29,u ⇌ eri / X*[-spread -labdent][b-c-d-g-k-l-m-n-p-q-r-s-t-z]_s,nom.sg,gen.sg
+noun-30, ⇌ nti / [-spread -lat -labdent]*[+cons -labdent -low][-cons][b-d-f-l-m-n-p-r-s-t-z-ph-th]a_s,nom.sg,gen.sg
+noun-31, ⇌ to / [-labdent]*[+voice -spread -labdent -low][a-b-c-d-e-g-k-o-p-q-s-t-y-z-ā-ē-ō][-approx -lat -low][a-e-n-r-ā-ē][e-m-n-o-ē-ō]_s,nom.sg,gen.sg
+noun-32, ⇌ nto / [a-d-e-n-r-z-ā-ē]*[a-e-o][d-l-r-z][a-e][b-f-m-p-ph]a_s,nom.sg,gen.sg
+noun-33,e_ ⇌ i_i / X*[-spread -labdent][-spread -low]_[c-k-p-q]_s,nom.sg,gen.sg
+noun-34,e_ ⇌ _ī / X*[-spread -labdent][b-c-d-g-k-p-q-t]_r_,nom.sg,gen.sg
+noun-35,_ ⇌ on_s / [-labdent]*[-spread -nas -lat -labdent][a-d-e-s-t-z-ā-ē][-spread -nas -lat -labdent -low]_o_,nom.sg,gen.sg
+noun-36, ⇌ o / [-labdent]*[-lat -labdent][-nas -lat -labdent -low]_s,nom.sg,gen.sg
+noun-37, ⇌ ri / X*[-long]_s,nom.sg,gen.sg
+noun-38,c ⇌ gi / X*[-labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_s,nom.sg,gen.sg
+noun-39,_c ⇌ eg_ / a_i_s,nom.sg,gen.sg
+noun-40,c ⇌ go / [-labdent]*[-spread -lat -labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_s,nom.sg,gen.sg
+noun-41,ic ⇌ ego / a_s,nom.sg,gen.sg
+noun-42, ⇌ tos / [-labdent]*[+son][-labdent -low][-high -low][a-e-i-n-r-ā-ē-ī]_,nom.sg,gen.sg
+noun-43,e ⇌ is / X*[-spread -lat -labdent][-spread -labdent -low]_,nom.sg,gen.sg
+noun-44,e ⇌ iti / X*[-spread -nas -labdent]+[-spread -labdent -low]_s,nom.sg,gen.sg
+noun-45,a ⇌ iti / an_s,nom.sg,gen.sg
+noun-46,u ⇌ odi / [-labdent]*[-cons]p_s,nom.sg,gen.sg
+noun-47,u_um ⇌ i_ī / arb_t_,nom.sg,gen.sg
+noun-48, ⇌ ssi / [b-d-e-i-m-n-p-r-s-t-y-z-ē-ī]*[-long]_s,nom.sg,gen.sg
+noun-49,i ⇌ eōs / [c-d-e-g-i-k-n-r-s-t-z-ē-ī]*[d-n-s-t-z]?[a-e-i][b-d-m-n-p-s-t-z]a[b-d-p-r-s-t-z]_,nom.sg,gen.sg
+noun-50,e_ ⇌ u_i / m?a[e-i-m-n-o-r-u-y-ē-ī-ō-ū]c_p_s,nom.sg,gen.sg
+noun-51,c ⇌ chi / [-spread -lat -labdent -high]*[b-d-m-n-p-t][+front]_s,nom.sg,gen.sg
+noun-52,c ⇌ cho / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*[b-d-m-n][e-y-ē]_s,nom.sg,gen.sg
+noun-53, ⇌ ui / [b-d-e-i-m-n-p-r-s-t-y-z-ē-ī]*bo_s,nom.sg,gen.sg
+noun-54,th_c ⇌ t_chi / c?[a-b-d-e-o-p-s-t-z-ā-ē-ō][e-l-o-r-ē-ō]l[i-y-ī]_ri_s,nom.sg,gen.sg
+noun-55,th_c ⇌ t_cho / c?[a-b-d-e-o-p-s-t-z-ā-ē-ō][e-l-o-r-ē-ō]l[i-y-ī]_ri_s,nom.sg,gen.sg
+noun-56,th_ ⇌ t_i / cal+i_ric_s,nom.sg,gen.sg
+noun-57,th_ ⇌ t_o / cal+i_ric_s,nom.sg,gen.sg
+noun-58,ap__ ⇌ _ep_e / c_r_a_,nom.sg,gen.sg
+noun-59,u_ ⇌ i_is / [-spread -lat -labdent -low]*[c-k][a-e-i]p_t_,nom.sg,gen.sg
+noun-60,o ⇌ nis / car_,nom.sg,gen.sg
+noun-61,o_ ⇌ u_tis / chironom_n_,nom.sg,gen.sg
+noun-62, ⇌ eōs / cidar_,nom.sg,gen.sg
+noun-63, ⇌ er / [-spread -nas -lat -labdent -low]*[c-g-k-q-u-ū][e-i-l-o-r-u-y-ē-ī-ō-ū][e-i-m-n-o-r-u-y-ē-ī-ō-ū]_is,nom.sg,gen.sg
+noun-64,er ⇌ ī / grong_,nom.sg,gen.sg
+noun-65,nc ⇌ gi / coniu_s,nom.sg,gen.sg
+noun-66, ⇌ dis / t?[c-d-g-k-r-s-t-z][e-i-o-u][a-e-r-ā-ē]_,nom.sg,gen.sg
+noun-67,u ⇌ ori / [-spread]+[-spread -lat -labdent -low][b-c-d-g-k-m-n-p-q-t]_s,nom.sg,gen.sg
+noun-68,er ⇌ is / cucum_,nom.sg,gen.sg
+noun-69,u ⇌ onti / o?[c-k-s-t][e-s-y-z-ē][e-m-n-y-ē]od_s,nom.sg,gen.sg
+noun-70, ⇌ ci / com+er_s,nom.sg,gen.sg
+noun-71, ⇌ ni / [a-b-d-e-m-n-o-p-s-t-z-ā-ē-ō]*[e-m-n-o-ē-ō][d-e-g-i-l-r-z-ē-ī][-nas -labdent -low][a-e-i]_s,nom.sg,gen.sg
+noun-72, ⇌ ntis / draco_,nom.sg,gen.sg
+noun-73,u_ ⇌ o_is / f?[e-f-i-o-r-s-u-y-z-ē-ī-ō-ū]?[e-l-r-ē][b-c-g-k-m-p-q]_r_,nom.sg,gen.sg
+noun-74,o ⇌ i / m?e[b-d-l-p-r-s-t-z-ph-th]_s,nom.sg,gen.sg
+noun-75,om ⇌ ī / h?eru_,nom.sg,gen.sg
+noun-76,o ⇌ eō / eth_s,nom.sg,gen.sg
+noun-77,c_ ⇌ _is / e_scubitor_,nom.sg,gen.sg
+noun-78,n ⇌ s / engonasi_,nom.sg,gen.sg
+noun-79,_ ⇌ r_is / [f-h][a-e-i]_r_,nom.sg,gen.sg
+noun-80,_ ⇌ l_is / [a-e-s-z-ā-ē]*[-nas -lat -labdent -low]*[-approx -lat -labdent]*[-nas -lat -labdent -low]*[b-f-m-p]e_l_,nom.sg,gen.sg
+noun-81,ur ⇌ inis / fem_,nom.sg,gen.sg
+noun-82,ēs ⇌ eī / [-spread -nas]*[b-d-p-r-s-t-z]_,nom.sg,gen.sg
+noun-83,_e_ ⇌ i_i_is / f_lam_n_,nom.sg,gen.sg
+noun-84,u_ ⇌ e_is / fulg_r_,nom.sg,gen.sg
+noun-85, ⇌ ndi / gla_s,nom.sg,gen.sg
+noun-86,y ⇌ is / gl[i-y-ī]c_,nom.sg,gen.sg
+noun-87,y ⇌ eōs / gl[i-y-ī]c_,nom.sg,gen.sg
+noun-88,o_ ⇌ u_is / gut+_r_,nom.sg,gen.sg
+noun-89,r ⇌ tis / [e-h-o-s-y-z-ē-ō]*[b-d-e-m-n-p-s-t-z-ē-ph-th][b-d-e-p-s-t-z-ē]a_,nom.sg,gen.sg
+noun-90,p ⇌ i / hiem_s,nom.sg,gen.sg
+noun-91,r ⇌ tos / hyphea_,nom.sg,gen.sg
+noun-92,_c ⇌ ych_ / iaspon_i_s,nom.sg,gen.sg
+noun-93,_ ⇌ in_is / i?[e-i][c-k-t]_[e-o]r_,nom.sg,gen.sg
+noun-94,u_ ⇌ ino_is / i[e-o]c_r_,nom.sg,gen.sg
+noun-95,u_ ⇌ ine_is / i[e-o]c_r_,nom.sg,gen.sg
+noun-96,o_ ⇌ ine_is / iec_r_,nom.sg,gen.sg
+noun-97,o ⇌ is / [e-i]ncud_,nom.sg,gen.sg
+noun-98,s ⇌ e / luca_,nom.sg,gen.sg
+noun-99, ⇌ no / [b-d-e-m-n-o-p-s-t-z-ē-ō]*mela_s,nom.sg,gen.sg
+noun-100,n_ ⇌ _is / me_sor_,nom.sg,gen.sg
+noun-101,n_ ⇌ s_is / me_sor_,nom.sg,gen.sg
+noun-102,i_i_ ⇌ e_e_is / m_n_strator_,nom.sg,gen.sg
+noun-103,c ⇌ ui / ni_s,nom.sg,gen.sg
+noun-104,e ⇌ idi / [b-d-p-r-s-t-z]*[a-o][b-d-e-p-s-t-z-ē]s_s,nom.sg,gen.sg
+noun-105, ⇌ itis / oenomel_,nom.sg,gen.sg
+noun-106, ⇌ itos / oenomel_,nom.sg,gen.sg
+noun-107,u ⇌ onto / ocsyod_s,nom.sg,gen.sg
+noun-108,_us ⇌ n_ī / pa_nicul_,nom.sg,gen.sg
+noun-109,_ ⇌ n_is / pi_ctor_,nom.sg,gen.sg
+noun-110,_ ⇌ o_ri / pl_u_s,nom.sg,gen.sg
+noun-111,ion ⇌ ī / [b-d-e-o-p-s-t-z-ē-ō-ph-th]*[b-d-e-i-p-r-s-t-y-z-ē-ī][e-s-y-z-ē][b-d-m-n-p-t-ph-th][a-o][d-n-t]_,nom.sg,gen.sg
+noun-112,ec ⇌ igi / [-spread -lat -labdent]*[-spread -nas -lat -labdent -low][e-i-o-r-u-y-ē-ī-ō-ū][m-n-r]_s,nom.sg,gen.sg
+noun-113,c ⇌ ch / s_ir+osis,nom.sg,gen.sg
+noun-114,c_i ⇌ ch_eō / s_ir+os_s,nom.sg,gen.sg
+noun-115, ⇌ h / scir+_osis,nom.sg,gen.sg
+noun-116,_i ⇌ h_eō / scir+_os_s,nom.sg,gen.sg
+noun-117,ec ⇌ i / [a-c-d-e-g-i-k-r-s-t-z-ā-ē-ī]*[e-s-z-ē][c-e-g-k-ē][l-m-n-r]isen_s,nom.sg,gen.sg
+noun-118, ⇌ ōs / s[e-i]nape_,nom.sg,gen.sg
+noun-119,_ ⇌ e_s / sor_i_,nom.sg,gen.sg
+noun-120,y ⇌ eis / sor_,nom.sg,gen.sg
+noun-121,i ⇌ eeōs / sor_,nom.sg,gen.sg
+noun-122,y ⇌ eeōs / sor_,nom.sg,gen.sg
+noun-123, ⇌ iti / stip_s,nom.sg,gen.sg
+noun-124, ⇌ tili / [e-i-o-r-s-u-y-z-ē-ī-ō-ū]*[-spread -nas -lat -labdent -low][b-o-p-q-u-y-ō-ū][b-d-e-p-s-t-z-ē][e-l-r-ē]lec_s,nom.sg,gen.sg
+noun-125, ⇌ eri / su_s,nom.sg,gen.sg
+noun-126, ⇌ dos / tria_,nom.sg,gen.sg
+noun-127,u ⇌ odo / trip_s,nom.sg,gen.sg
+noun-128,c ⇌ gui / un_s,nom.sg,gen.sg
+noun-129, ⇌ ne / X+o_,nom.sg,abl.sg
+noun-130, ⇌ e / X*[-nas -labdent][-spread -labdent -low]_,nom.sg,abl.sg
+noun-131,us ⇌ ō / X+_,nom.sg,abl.sg
+noun-132,s ⇌ e / X*[-labdent][-lat -labdent -low]_,nom.sg,abl.sg
+noun-133,a ⇌ ā / X*[-low]+_,nom.sg,abl.sg
+noun-134, ⇌ te / X*[-labdent]X[-spread -lat -LAB -labdent]_,nom.sg,abl.sg
+noun-135,s ⇌ te / X+[-spread -labdent]_,nom.sg,abl.sg
+noun-136,um ⇌ ō / X+[-low]_,nom.sg,abl.sg
+noun-137,o ⇌ ine / X*[-labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][b-c-d-g-k-m-n-p-q-t]_,nom.sg,abl.sg
+noun-138,e_ ⇌ i_e / X*[-spread -nas -labdent][-spread -labdent -low]_n_,nom.sg,abl.sg
+noun-139,us ⇌ ote / abnep_,nom.sg,abl.sg
+noun-140,is ⇌ ī / X*[-labdent][-labdent -low]_,nom.sg,abl.sg
+noun-141,is ⇌ e / X*[-labdent][-labdent -low]_,nom.sg,abl.sg
+noun-142,us ⇌ ū / X*[-labdent -low]_,nom.sg,abl.sg
+noun-143, ⇌ ō / X*[-lat -low][e-i-o-u-y-ē-ī-ō-ū][l-r]_,nom.sg,abl.sg
+noun-144,s ⇌ de / X+[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_,nom.sg,abl.sg
+noun-145,on ⇌ ō / X*[-labdent -low]_,nom.sg,abl.sg
+noun-146,os ⇌ ō / X*[-labdent]+_,nom.sg,abl.sg
+noun-147,e_ ⇌ _e / [-spread]*[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][b-d-p-t]_r_,nom.sg,abl.sg
+noun-148,s ⇌  / X*[-labdent]+[-rnd]_,nom.sg,abl.sg
+noun-149,ēs ⇌ ā / X*[-labdent]+_,nom.sg,abl.sg
+noun-150, ⇌  / X*,nom.sg,abl.sg
+noun-151,es ⇌ ī / X*[-spread -labdent][-labdent -low]_,nom.sg,abl.sg
+noun-152,us ⇌ ere / X*[-spread -labdent][b-c-d-g-k-l-m-n-p-q-r-s-t-z]_,nom.sg,abl.sg
+noun-153,s ⇌ nte / [-spread -lat -labdent]*[+voice -spread -lat -labdent]*[+cons -labdent -low][-cons][b-d-f-l-m-n-p-r-s-t-z-ph-th]a_,nom.sg,abl.sg
+noun-154,e_s ⇌ i_e / X*[-spread -labdent][-spread -low]_[c-k-p-q]_,nom.sg,abl.sg
+noun-155,e_ ⇌ _ō / X*[-spread -labdent][b-c-d-g-k-p-q-t]_r_,nom.sg,abl.sg
+noun-156,s ⇌ re / X*[-long]_,nom.sg,abl.sg
+noun-157,cs ⇌ ge / X*[-labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_,nom.sg,abl.sg
+noun-158,ics ⇌ ege / a_,nom.sg,abl.sg
+noun-159,e ⇌ ī / X*[-spread -lat -labdent][-spread -labdent -low]_,nom.sg,abl.sg
+noun-160,_s ⇌ it_ / X*[-spread -nas -labdent][-spread -labdent -low]_e_,nom.sg,abl.sg
+noun-161, ⇌ ī / X*[-labdent -low][a-e-i][l-r]_,nom.sg,abl.sg
+noun-162,as ⇌ ite / an_,nom.sg,abl.sg
+noun-163,us ⇌ ode / [-labdent]*[-cons]p_,nom.sg,abl.sg
+noun-164,u_um ⇌ i_ō / arb_t_,nom.sg,abl.sg
+noun-165,s ⇌ tī / X*[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][-spread -LAB -labdent -low]_,nom.sg,abl.sg
+noun-166,s ⇌ ī / X*[-lat -labdent][-spread -labdent][-spread -nas -lat -labdent -low]_,nom.sg,abl.sg
+noun-167,_ ⇌ s_e / [b-d-e-m-n-p-s-t-z-ē]*[b-d-e-i-m-n-r-y-z-ē-ī]?[-long]_s_,nom.sg,abl.sg
+noun-168,i ⇌ e / [-spread -lat -labdent -low]*[-nas -lat -LAB -labdent]?[-spread -labdent][-spread -lat -labdent]+[b-d-l-m-n-p-r-s-t-z]_,nom.sg,abl.sg
+noun-169,e_s ⇌ u_e / m?a[e-i-m-n-o-r-u-y-ē-ī-ō-ū]c_p_,nom.sg,abl.sg
+noun-170,cs ⇌ che / [-spread -lat -labdent -high]*[b-d-m-n-p-t][+front]_,nom.sg,abl.sg
+noun-171, ⇌ tī / [b-o-u-y-ō-ū]ison_,nom.sg,abl.sg
+noun-172,s ⇌ ue / [b-d-e-i-m-n-p-r-s-t-y-z-ē-ī]*bo_,nom.sg,abl.sg
+noun-173,th_cs ⇌ t_che / c?[a-b-d-e-o-p-s-t-z-ā-ē-ō][e-l-o-r-ē-ō]l[i-y-ī]_ri_,nom.sg,abl.sg
+noun-174,th_s ⇌ t_e / cal+i_ric_,nom.sg,abl.sg
+noun-175,ap_a ⇌ _epā / c_r_,nom.sg,abl.sg
+noun-176,u_ ⇌ i_e / [-spread -lat -labdent -low]*[c-k][a-e-i]p_t_,nom.sg,abl.sg
+noun-177,o ⇌ ne / car_,nom.sg,abl.sg
+noun-178,o_ ⇌ u_te / chironom_n_,nom.sg,abl.sg
+noun-179,s ⇌ dī / X*[-spread -labdent][-labdent][e-i-n-r-ē-ī]_,nom.sg,abl.sg
+noun-180,is ⇌ ere / [-spread -nas -lat -labdent -low]*[c-g-k-q-u-ū][e-i-l-o-r-u-y-ē-ī-ō-ū][e-i-m-n-o-r-u-y-ē-ī-ō-ū]_,nom.sg,abl.sg
+noun-181,i ⇌ ī / [c-d-e-g-i-k-n-r-s-t-z-ē-ī]*[a-e-i-r-s-z-ā-ē-ī]*[b-c-d-g-k-m-n-p-q-t][a-e-o-y-ā-ē-ō][b-d-p-r-s-t-z-ph-th]_,nom.sg,abl.sg
+noun-182,e_ ⇌ _ī / [-spread -labdent -low]*[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][b-d-p-t]_r_,nom.sg,abl.sg
+noun-183,er ⇌ ō / grong_,nom.sg,abl.sg
+noun-184,ncs ⇌ ge / coniu_,nom.sg,abl.sg
+noun-185, ⇌ de / t?[c-d-g-k-r-s-t-z][e-i-o-u][a-e-r-ā-ē]_,nom.sg,abl.sg
+noun-186,us ⇌ ore / [-spread]+[-spread -lat -labdent -low][b-c-d-g-k-m-n-p-q-t]_,nom.sg,abl.sg
+noun-187,is ⇌ erī / cucum_,nom.sg,abl.sg
+noun-188,er ⇌ ī / cucum_,nom.sg,abl.sg
+noun-189,r ⇌  / cucume_,nom.sg,abl.sg
+noun-190,us ⇌ onte / o?[c-k-s-t][e-s-y-z-ē][e-m-n-y-ē]od_,nom.sg,abl.sg
+noun-191,s ⇌ cī / commer_,nom.sg,abl.sg
+noun-192,s ⇌ ce / commer_,nom.sg,abl.sg
+noun-193,s ⇌ ne / [b-d-e-m-n-p-s-t-z-ē]*[a-b-d-e-o-p-s-t-z-ā-ē-ō]?[e-m-n-o-ē-ō][d-e-g-i-l-r-z-ē-ī][-nas -labdent -low][a-e-i]_,nom.sg,abl.sg
+noun-194, ⇌ nte / draco_,nom.sg,abl.sg
+noun-195,u_ ⇌ o_e / f?[e-f-i-o-r-s-u-y-z-ē-ī-ō-ū]?[e-l-r-ē][b-c-g-k-m-p-q]_r_,nom.sg,abl.sg
+noun-196,os ⇌ e / m?e[b-d-l-p-r-s-t-z-ph-th]_,nom.sg,abl.sg
+noun-197,om ⇌ ō / h?eru_,nom.sg,abl.sg
+noun-198,c_ ⇌ _e / e_scubitor_,nom.sg,abl.sg
+noun-199,in ⇌ e / engonas_,nom.sg,abl.sg
+noun-200,_ ⇌ r_e / [f-h][a-e-i]_r_,nom.sg,abl.sg
+noun-201,_ ⇌ l_e / [a-e-s-z-ā-ē]*[-nas -lat -labdent -low]*[-approx -lat -labdent]*[-nas -lat -labdent -low]*[b-f-m-p]e_l_,nom.sg,abl.sg
+noun-202,ur ⇌ ine / fem_,nom.sg,abl.sg
+noun-203,_e_ ⇌ i_i_e / f_lam_n_,nom.sg,abl.sg
+noun-204,u_ ⇌ e_e / fulg_r_,nom.sg,abl.sg
+noun-205,s ⇌ ndī / gla_,nom.sg,abl.sg
+noun-206,s ⇌ nde / gla_,nom.sg,abl.sg
+noun-207,s ⇌ rī / gli_,nom.sg,abl.sg
+noun-208,y ⇌ e / gl[i-y-ī]c_,nom.sg,abl.sg
+noun-209,o_ ⇌ u_e / gut+_r_,nom.sg,abl.sg
+noun-210,r ⇌ te / [e-h-o-s-y-z-ē-ō]*[b-d-e-m-n-p-s-t-z-ē-ph-th][b-d-e-p-s-t-z-ē]a_,nom.sg,abl.sg
+noun-211,ps ⇌ e / hiem_,nom.sg,abl.sg
+noun-212,ics ⇌ yche / iaspon_,nom.sg,abl.sg
+noun-213,_ ⇌ in_e / i?[e-i][c-k-t]_[e-o]r_,nom.sg,abl.sg
+noun-214,u_ ⇌ ino_e / i[e-o]c_r_,nom.sg,abl.sg
+noun-215,u_ ⇌ ine_e / i[e-o]c_r_,nom.sg,abl.sg
+noun-216,o_ ⇌ ine_e / iec_r_,nom.sg,abl.sg
+noun-217,o ⇌ e / [e-i]ncud_,nom.sg,abl.sg
+noun-218,cs ⇌ gī / i[u-y-ū]n_,nom.sg,abl.sg
+noun-219,as ⇌ ā / luc_,nom.sg,abl.sg
+noun-220,n_ ⇌ _e / me_sor_,nom.sg,abl.sg
+noun-221,n_ ⇌ s_e / me_sor_,nom.sg,abl.sg
+noun-222,i_i_ ⇌ e_e_e / m_n_strator_,nom.sg,abl.sg
+noun-223,cs ⇌ ue / ni_,nom.sg,abl.sg
+noun-224,_s ⇌ id_ / [b-d-p-r-s-t-z]*[a-o][b-d-e-p-s-t-z-ē]s_e_,nom.sg,abl.sg
+noun-225, ⇌ ite / oenomel_,nom.sg,abl.sg
+noun-226,_us ⇌ n_ō / pa_nicul_,nom.sg,abl.sg
+noun-227,_ ⇌ n_e / pi_ctor_,nom.sg,abl.sg
+noun-228,_s ⇌ o_re / pl_u_,nom.sg,abl.sg
+noun-229,_cs ⇌ ig_ / [-spread -lat -labdent]*[-spread -nas -lat -labdent -low][e-i-o-r-u-y-ē-ī-ō-ū][m-n-r]_e_,nom.sg,abl.sg
+noun-230,c_si_ ⇌ ch__e / s_ir+o_s_,nom.sg,abl.sg
+noun-231,c_is ⇌ ch_ī / s_ir+os_,nom.sg,abl.sg
+noun-232,_si_ ⇌ h__e / scir+_o_s_,nom.sg,abl.sg
+noun-233,_is ⇌ h_ī / scir+_os_,nom.sg,abl.sg
+noun-234,cs ⇌  / [a-c-d-e-g-i-k-r-s-t-z-ā-ē-ī]*[e-s-z-ē][c-e-g-k-ē][l-m-n-r]isene_,nom.sg,abl.sg
+noun-235,i ⇌ ee / sor_,nom.sg,abl.sg
+noun-236,y ⇌ ee / sor_,nom.sg,abl.sg
+noun-237,s ⇌ ite / stip_,nom.sg,abl.sg
+noun-238,s ⇌ tile / [e-i-o-r-s-u-y-z-ē-ī-ō-ū]*[-spread -nas -lat -labdent -low][b-o-p-q-u-y-ō-ū][b-d-e-p-s-t-z-ē][e-l-r-ē]lec_,nom.sg,abl.sg
+noun-239,s ⇌ ere / su_,nom.sg,abl.sg
+noun-240,us ⇌ ontī / synod_,nom.sg,abl.sg
+noun-241,s ⇌ ntī / taurelepha_,nom.sg,abl.sg
+noun-242,us ⇌ odī / trip_,nom.sg,abl.sg
+noun-243,cs ⇌ guī / un_,nom.sg,abl.sg
+noun-244,cs ⇌ gue / un_,nom.sg,abl.sg
+noun-245, ⇌ num / X+o_,nom.sg,gen.pl
+noun-246, ⇌ um / X*[-labdent][-spread -labdent -low]_,nom.sg,gen.pl
+noun-247,_s ⇌ ōr_m / X+_u_,nom.sg,gen.pl
+noun-248,s ⇌ um / X*[-labdent][-lat -labdent -low]_,nom.sg,gen.pl
+noun-249,a ⇌ ārum / X*[-low]+_,nom.sg,gen.pl
+noun-250, ⇌ tum / X*[-labdent]X[-spread -lat -LAB -labdent]_,nom.sg,gen.pl
+noun-251,s ⇌ tum / X+[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_,nom.sg,gen.pl
+noun-252, ⇌ ōr / X+[-low]_um,nom.sg,gen.pl
+noun-253,o ⇌ inum / X*[-labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][b-c-d-g-k-m-n-p-q-t]_,nom.sg,gen.pl
+noun-254,e_ ⇌ i_um / X*[-spread -nas -labdent][-spread -labdent -low]_n_,nom.sg,gen.pl
+noun-255,_s ⇌ ot_m / abnep_u_,nom.sg,gen.pl
+noun-256, ⇌ ōrum / X*[-lat -low][e-i-o-u-y-ē-ī-ō-ū][l-r]_,nom.sg,gen.pl
+noun-257,s ⇌ dum / X+[-cons]_,nom.sg,gen.pl
+noun-258,s ⇌ dium / X+[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_,nom.sg,gen.pl
+noun-259,on ⇌ ōrum / X*[-labdent -low]_,nom.sg,gen.pl
+noun-260,os ⇌ ōrum / X*[-labdent]+_,nom.sg,gen.pl
+noun-261,e_ ⇌ _um / [-spread -lat]*[-long][p-t]_r_,nom.sg,gen.pl
+noun-262, ⇌ ium / X*[-nas -labdent][-spread -labdent -low -back]_,nom.sg,gen.pl
+noun-263,ēs ⇌ ārum / X*[-labdent]+_,nom.sg,gen.pl
+noun-264,is ⇌ um / X*[-labdent][-labdent -low]_,nom.sg,gen.pl
+noun-265,is ⇌ eōn / X*[-lat -labdent][+cons -labdent -low]_,nom.sg,gen.pl
+noun-266,ē ⇌ ārum / X*[-labdent][-low]_,nom.sg,gen.pl
+noun-267,s ⇌ rum / X*[-cons]_,nom.sg,gen.pl
+noun-268,s ⇌ ium / X*[-labdent][-nas -lat -labdent -low]_,nom.sg,gen.pl
+noun-269,es ⇌ ium / X*[-labdent]+_,nom.sg,gen.pl
+noun-270,_s ⇌ er_m / X*[-spread -labdent][b-c-d-g-k-l-m-n-p-q-r-s-t-z]_u_,nom.sg,gen.pl
+noun-271,s ⇌ tium / X*[-spread -labdent]+_,nom.sg,gen.pl
+noun-272,s ⇌ ntium / [-spread -lat -labdent]*[+voice -spread -lat -labdent]*[+cons -labdent -low][-cons][b-d-f-l-m-n-p-r-s-t-z-ph-th]a_,nom.sg,gen.pl
+noun-273,s ⇌ ntum / [-spread -lat -labdent]*[+voice -spread -lat -labdent]*[+cons -labdent -low][-cons][b-d-f-l-m-n-p-r-s-t-z-ph-th]a_,nom.sg,gen.pl
+noun-274,e_s ⇌ i_um / X*[-spread -labdent][-spread -low]_[c-k-p-q]_,nom.sg,gen.pl
+noun-275, ⇌ nium / [-labdent]*[-lat -labdent][-spread -lat -labdent]+o_,nom.sg,gen.pl
+noun-276,e_ ⇌ rō_um / X*[-spread -labdent][b-c-d-g-k-p-q-t]_r_,nom.sg,gen.pl
+noun-277,cs ⇌ gum / X*[-labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_,nom.sg,gen.pl
+noun-278,ics ⇌ egum / a_,nom.sg,gen.pl
+noun-279,cs ⇌ gium / X*[-spread -labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]_,nom.sg,gen.pl
+noun-280,_cs ⇌ eg_um / a_i_,nom.sg,gen.pl
+noun-281, ⇌ tium / [-labdent]*[-labdent -low][-high][-spread -lat -LAB -labdent]_,nom.sg,gen.pl
+noun-282,e ⇌ ium / X*[-spread -lat -labdent][-spread -labdent -low]_,nom.sg,gen.pl
+noun-283,es ⇌ um / X*[-labdent]+_,nom.sg,gen.pl
+noun-284,es ⇌ itum / X*[-spread -nas -labdent][-spread -labdent -low]_,nom.sg,gen.pl
+noun-285,as ⇌ itum / an_,nom.sg,gen.pl
+noun-286,as ⇌ itium / an_,nom.sg,gen.pl
+noun-287,_s ⇌ od_m / [-labdent]*[-cons]p_u_,nom.sg,gen.pl
+noun-288,_s ⇌ odi_m / [-labdent]*[-long]p_u_,nom.sg,gen.pl
+noun-289,u_ ⇌ i_ōr / arb_t_um,nom.sg,gen.pl
+noun-290,_ ⇌ s_ium / [b-d-e-i-m-n-p-r-s-t-y-z-ē-ī]*[-long]_s_,nom.sg,gen.pl
+noun-291,_ ⇌ s_um / [b-d-e-m-n-p-s-t-z-ē]*[b-d-e-i-m-n-r-y-z-ē-ī]?[-long]_s_,nom.sg,gen.pl
+noun-292,i ⇌ eōn / [c-d-e-g-i-k-n-r-s-t-z-ē-ī]*[d-n-s-t-z]?[a-e-i][b-d-m-n-p-s-t-z]a[b-d-p-r-s-t-z]_,nom.sg,gen.pl
+noun-293,i ⇌ um / [-lat -labdent -low]*[-spread -nas -LAB -labdent][-spread -lat -labdent]+[b-d-l-m-n-p-r-s-t-z]_,nom.sg,gen.pl
+noun-294,e_s ⇌ u_um / m?a[e-i-m-n-o-r-u-y-ē-ī-ō-ū]c_p_,nom.sg,gen.pl
+noun-295,cs ⇌ chum / [-spread -lat -labdent -high]*[b-d-m-n-p-t][+front]_,nom.sg,gen.pl
+noun-296,cs ⇌ chium / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*[b-d-m-n][e-y-ē]_,nom.sg,gen.pl
+noun-297,s ⇌ uum / [b-d-e-i-m-n-p-r-s-t-y-z-ē-ī]*bo_,nom.sg,gen.pl
+noun-298,th_cs ⇌ t_chum / c?[a-b-d-e-o-p-s-t-z-ā-ē-ō][e-l-o-r-ē-ō]l[i-y-ī]_ri_,nom.sg,gen.pl
+noun-299,th_cs ⇌ t_chium / c?[a-b-d-e-o-p-s-t-z-ā-ē-ō][e-l-o-r-ē-ō]l[i-y-ī]_ri_,nom.sg,gen.pl
+noun-300,th_s ⇌ t_um / cal+i_ric_,nom.sg,gen.pl
+noun-301,th_s ⇌ t_ium / cal+i_ric_,nom.sg,gen.pl
+noun-302,a__a ⇌ re_ā_um / c_p_r_,nom.sg,gen.pl
+noun-303,u_ ⇌ i_um / [-spread -lat -labdent -low]*[c-k][a-e-i]p_t_,nom.sg,gen.pl
+noun-304,o ⇌ num / car_,nom.sg,gen.pl
+noun-305,o ⇌ nium / car_,nom.sg,gen.pl
+noun-306,o_ ⇌ u_tium / chironom_n_,nom.sg,gen.pl
+noun-307,o_ ⇌ u_tum / chironom_n_,nom.sg,gen.pl
+noun-308, ⇌ eōn / cidar_,nom.sg,gen.pl
+noun-309,is ⇌ erum / [-spread -nas -lat -labdent -low]*[c-g-k-q-u-ū][e-i-l-o-r-u-y-ē-ī-ō-ū][e-i-m-n-o-r-u-y-ē-ī-ō-ū]_,nom.sg,gen.pl
+noun-310,e_ ⇌ _ium / [-spread -low]*[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][b-d-p-t]_r_,nom.sg,gen.pl
+noun-311,e_ ⇌ ō_um / grong_r_,nom.sg,gen.pl
+noun-312,ncs ⇌ gum / coniu_,nom.sg,gen.pl
+noun-313, ⇌ dium / t?[c-d-g-k-r-s-t-z][e-i-o-u][a-e-r-ā-ē]_,nom.sg,gen.pl
+noun-314, ⇌ dum / t?[c-d-g-k-r-s-t-z][e-i-o-u][a-e-r-ā-ē]_,nom.sg,gen.pl
+noun-315,ū ⇌ uum / [b-c-d-e-g-k-m-n-o-p-q-s-t-y-z-ē-ō]*[-spread -nas -lat -labdent -low][d-e-r-s-t-z-ē][c-d-g-k-l-n-r-s-t-z]_,nom.sg,gen.pl
+noun-316,_s ⇌ or_m / [-spread]+[-spread -lat -labdent -low][b-c-d-g-k-m-n-p-q-t]_u_,nom.sg,gen.pl
+noun-317,s ⇌ rium / [-spread -low]*[-cons]_,nom.sg,gen.pl
+noun-318,e ⇌ um / [-spread]*[-spread -lat -labdent -high][-spread -nas -lat -labdent][b-d-l-m-n-p-r-s-t-z]_,nom.sg,gen.pl
+noun-319,_s ⇌ er_um / cucum_i_,nom.sg,gen.pl
+noun-320,er ⇌ ium / cucum_,nom.sg,gen.pl
+noun-321,er ⇌ um / cucum_,nom.sg,gen.pl
+noun-322,_s ⇌ ont_m / o?c[e-s-y-z-ē][e-m-n-y-ē]od_u_,nom.sg,gen.pl
+noun-323,s ⇌ cium / com+er_,nom.sg,gen.pl
+noun-324,s ⇌ nium / [b-d-e-m-n-p-s-t-z-ē]*[a-b-d-e-o-p-s-t-z-ā-ē-ō]?[e-m-n-o-ē-ō][d-e-g-i-l-r-z-ē-ī][-nas -labdent -low][a-e-i]_,nom.sg,gen.pl
+noun-325,s ⇌ num / [b-d-e-m-n-p-s-t-z-ē]*[a-b-d-e-o-p-s-t-z-ā-ē-ō]?[e-m-n-o-ē-ō][d-e-g-i-l-r-z-ē-ī][-nas -labdent -low][a-e-i]_,nom.sg,gen.pl
+noun-326, ⇌ ntium / draco_,nom.sg,gen.pl
+noun-327, ⇌ ntum / draco_,nom.sg,gen.pl
+noun-328,u_ ⇌ o_ium / eb_r_,nom.sg,gen.pl
+noun-329,u_ ⇌ o_um / f?[e-f-i-o-r-s-u-y-z-ē-ī-ō-ū]?[e-l-r-ē][b-c-g-k-m-p-q]_r_,nom.sg,gen.pl
+noun-330,os ⇌ ium / m?e[b-d-l-p-r-s-t-z-ph-th]_,nom.sg,gen.pl
+noun-331,os ⇌ um / m?e[b-d-l-p-r-s-t-z-ph-th]_,nom.sg,gen.pl
+noun-332,o ⇌ ōru / h?eru_m,nom.sg,gen.pl
+noun-333,os ⇌ eōn / eth_,nom.sg,gen.pl
+noun-334,c_ ⇌ _um / e_scubitor_,nom.sg,gen.pl
+noun-335,e_s ⇌ i_ium / [-spread -lat -low]*[a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū]+[-spread -lat -labdent -low][b-c-d-g-k-p-q-t]_[c-k-p-q]_,nom.sg,gen.pl
+noun-336,n ⇌ um / engonasi_,nom.sg,gen.pl
+noun-337,in ⇌ um / engonas_,nom.sg,gen.pl
+noun-338,_ ⇌ r_um / [f-h][a-e-i]_r_,nom.sg,gen.pl
+noun-339,_ ⇌ l_ium / [b-c-d-e-g-k-o-p-q-s-t-y-z-ē-ō]*[b-f-m-p]e_l_,nom.sg,gen.pl
+noun-340,_ ⇌ l_um / [a-e-s-z-ā-ē]*[-nas -lat -labdent -low]*[-approx -lat -labdent]*[-nas -lat -labdent -low]*[b-f-m-p]e_l_,nom.sg,gen.pl
+noun-341,_r ⇌ in_m / fem_u_,nom.sg,gen.pl
+noun-342,_e_ ⇌ i_i_um / f_lam_n_,nom.sg,gen.pl
+noun-343,u_ ⇌ e_um / fulg_r_,nom.sg,gen.pl
+noun-344,s ⇌ ndium / gla_,nom.sg,gen.pl
+noun-345,y ⇌ ium / gl[i-y-ī]c_,nom.sg,gen.pl
+noun-346,y ⇌ eōn / gl[i-y-ī]c_,nom.sg,gen.pl
+noun-347,y ⇌ um / gl[i-y-ī]c_,nom.sg,gen.pl
+noun-348,o_ ⇌ u_ium / gutt_r_,nom.sg,gen.pl
+noun-349,o_ ⇌ u_um / gutt_r_,nom.sg,gen.pl
+noun-350,r ⇌ tum / [e-h-o-s-y-z-ē-ō]*[b-d-e-m-n-p-s-t-z-ē-ph-th][b-d-e-p-s-t-z-ē]a_,nom.sg,gen.pl
+noun-351,ps ⇌ um / hiem_,nom.sg,gen.pl
+noun-352,_ ⇌ r_ium / hi_r_,nom.sg,gen.pl
+noun-353,es ⇌ itium / [a-e-s-z-ā-ē]*[h-s-t-th][e-o][l-r-s-z][b-d-l-p-r-s-t-z]_,nom.sg,gen.pl
+noun-354,r ⇌ tium / hyphea_,nom.sg,gen.pl
+noun-355,ics ⇌ ychum / iaspon_,nom.sg,gen.pl
+noun-356,_ ⇌ in_um / i?[e-i][c-k-t]_[e-o]r_,nom.sg,gen.pl
+noun-357,u_ ⇌ ino_um / i[e-o]c_r_,nom.sg,gen.pl
+noun-358,u_ ⇌ ine_um / i[e-o]c_r_,nom.sg,gen.pl
+noun-359,o_ ⇌ ine_um / iec_r_,nom.sg,gen.pl
+noun-360,o ⇌ um / [e-i]ncud_,nom.sg,gen.pl
+noun-361,e_ ⇌ i_ium / [s-t]*[-spread -nas -lat -labdent][b-d-e-m-n-o-p-s-t-z-ē-ō][a-d-e-g-i-l-r-z-ā-ē-ī][e-i-l-m-n-o-r-u-y-ē-ī-ō-ū]_n_,nom.sg,gen.pl
+noun-362,o ⇌ inium / lappag_,nom.sg,gen.pl
+noun-363,as ⇌ ārum / luc_,nom.sg,gen.pl
+noun-364,e_s ⇌ u_ium / manc_p_,nom.sg,gen.pl
+noun-365,n_ ⇌ _um / me_sor_,nom.sg,gen.pl
+noun-366,n_ ⇌ s_um / me_sor_,nom.sg,gen.pl
+noun-367,i_i_ ⇌ e_e_um / m_n_strator_,nom.sg,gen.pl
+noun-368,cs ⇌ uum / ni_,nom.sg,gen.pl
+noun-369,cs ⇌ uium / ni_,nom.sg,gen.pl
+noun-370,se_ ⇌ _idum / [b-d-p-r-s-t-z]*[a-o][b-d-e-p-s-t-z-ē]_s_,nom.sg,gen.pl
+noun-371,se_ ⇌ _idium / o[b-p]_s_,nom.sg,gen.pl
+noun-372, ⇌ itium / oenomel_,nom.sg,gen.pl
+noun-373, ⇌ itum / oenomel_,nom.sg,gen.pl
+noun-374,_s ⇌ onti_m / o?[c-k-s-t][e-s-y-z-ē][e-m-n-y-ē]od_u_,nom.sg,gen.pl
+noun-375,__s ⇌ n_ōr_m / pa_nicul_u_,nom.sg,gen.pl
+noun-376,_ ⇌ n_um / pi_ctor_,nom.sg,gen.pl
+noun-377,_s ⇌ o_rium / pl_u_,nom.sg,gen.pl
+noun-378,_s ⇌ o_rum / pl_u_,nom.sg,gen.pl
+noun-379,ecs ⇌ igum / [-spread -lat -labdent]*[-spread -nas -lat -labdent -low][e-i-o-r-u-y-ē-ī-ō-ū][m-n-r]_,nom.sg,gen.pl
+noun-380,c_si_ ⇌ ch__um / s_irro_s_,nom.sg,gen.pl
+noun-381,c_si_ ⇌ ch__eōn / s_ir+o_s_,nom.sg,gen.pl
+noun-382,c_s ⇌ ch_um / s_irrosi_,nom.sg,gen.pl
+noun-383,_si_ ⇌ h__um / scirr_o_s_,nom.sg,gen.pl
+noun-384,_si_ ⇌ h__eōn / scir+_o_s_,nom.sg,gen.pl
+noun-385,_s ⇌ h_um / scirr_osi_,nom.sg,gen.pl
+noun-386,ecs ⇌ um / [a-c-d-e-g-i-k-r-s-t-z-ā-ē-ī]*[e-s-z-ē][c-e-g-k-ē][l-m-n-r]isen_,nom.sg,gen.pl
+noun-387, ⇌ ōn / s[e-i]nape_,nom.sg,gen.pl
+noun-388,_ ⇌ e_um / sor_i_,nom.sg,gen.pl
+noun-389,y ⇌ eium / sor_,nom.sg,gen.pl
+noun-390,i ⇌ eeōn / sor_,nom.sg,gen.pl
+noun-391,y ⇌ eeōn / sor_,nom.sg,gen.pl
+noun-392,i ⇌ eum / sor_,nom.sg,gen.pl
+noun-393,y ⇌ eum / sor_,nom.sg,gen.pl
+noun-394,s ⇌ itum / stip_,nom.sg,gen.pl
+noun-395,s ⇌ tilum / [e-i-o-r-s-u-y-z-ē-ī-ō-ū]*[-spread -nas -lat -labdent -low][b-o-p-q-u-y-ō-ū][b-d-e-p-s-t-z-ē][e-l-r-ē]lec_,nom.sg,gen.pl
+noun-396,s ⇌ erum / su_,nom.sg,gen.pl
+noun-397,s ⇌ erium / su_,nom.sg,gen.pl
+noun-398,cs ⇌ guium / un_,nom.sg,gen.pl
+noun-399,is ⇌ e / X*[-labdent]+_,gen.sg,abl.sg
+noun-400,ī ⇌ ō / X+_,gen.sg,abl.sg
+noun-401,ae ⇌ ā / X+_,gen.sg,abl.sg
+noun-402,ī ⇌ iō / X*[-low]_,gen.sg,abl.sg
+noun-403,is ⇌ ī / X*[-labdent][-labdent -low]_,gen.sg,abl.sg
+noun-404,s ⇌  / X*[-low][ē-ī-ō-ū]_,gen.sg,abl.sg
+noun-405,os ⇌ e / X*[-labdent][-lat -labdent -low]_,gen.sg,abl.sg
+noun-406,ae ⇌ ē / X*[-labdent]+_,gen.sg,abl.sg
+noun-407,ōs ⇌  / X*[-lat -labdent][-labdent -low]e_,gen.sg,abl.sg
+noun-408,eōs ⇌ ī / X*[-lat -labdent][+cons -labdent -low]_,gen.sg,abl.sg
+noun-409,ī ⇌  / [-spread]*[-spread -lat -labdent -low][i-u]ē_,gen.sg,abl.sg
+noun-410,os ⇌ ī / [-labdent]*[-lat -labdent][b-d-e-m-n-o-p-s-t-z-ē-ō-ph-th][e-i-o-u][d-e-i-r-s-t-z-ē-ī]_,gen.sg,abl.sg
+noun-411,eī ⇌ ē / [-spread -nas]*[b-d-p-r-s-t-z]_,gen.sg,abl.sg
+noun-412,is ⇌ um / X*[-labdent]+_,gen.sg,gen.pl
+noun-413,ī ⇌ ōrum / X+_,gen.sg,gen.pl
+noun-414,ae ⇌ ārum / X+_,gen.sg,gen.pl
+noun-415,ī ⇌ iōrum / X*[-low]_,gen.sg,gen.pl
+noun-416,s ⇌ um / X*[-labdent]+i_,gen.sg,gen.pl
+noun-417,ūs ⇌ uum / X*[-labdent -low]_,gen.sg,gen.pl
+noun-418,os ⇌ um / X*[-labdent][-lat -labdent -low]_,gen.sg,gen.pl
+noun-419,os ⇌ ium / X*[-labdent][-lat -labdent -low]_,gen.sg,gen.pl
+noun-420,s ⇌ n / X*[-lat -labdent][-labdent -low]eō_,gen.sg,gen.pl
+noun-421,ēs ⇌ ārum / X*[-labdent][-low]_,gen.sg,gen.pl
+noun-422,ī ⇌ rum / [-spread]*[-spread -lat -labdent -low][i-u]ē_,gen.sg,gen.pl
+noun-423,eī ⇌ ērum / [-spread -nas]*[b-d-p-r-s-t-z]_,gen.sg,gen.pl
+noun-424,e ⇌ um / X*[-labdent]+_,abl.sg,gen.pl
+noun-425, ⇌ rum / X+[ā-ē-ō]_,abl.sg,gen.pl
+noun-426,ī ⇌ ium / X*[-labdent][-labdent -low]_,abl.sg,gen.pl
+noun-427,e ⇌ ium / X*[-labdent]+_,abl.sg,gen.pl
+noun-428,ū ⇌ uum / X*[-labdent -low]_,abl.sg,gen.pl
+noun-429,ē ⇌ ārum / X*[-labdent]X_,abl.sg,gen.pl
+noun-430, ⇌ ōn / X*[-lat -labdent][-labdent -low]e_,abl.sg,gen.pl
+noun-431,ī ⇌ eōn / X*[-lat -labdent][+cons -labdent -low]_,abl.sg,gen.pl
+noun-432, ⇌ rium / uī_,abl.sg,gen.pl
+noun-433,ī ⇌ iōrum / X*[-spread][-spread -lat -labdent][-spread -nas -lat -labdent -low]_,nom.pl,gen.pl
+noun-434,ī ⇌ ōrum / X+[-labdent][-low]_,nom.pl,gen.pl
+noun-435,a ⇌ um / X*[-labdent][-spread -labdent]+[-spread -lat -labdent -low]_,nom.pl,gen.pl
+noun-436,a ⇌ ōrum / X*[-labdent]+[-low]_,nom.pl,gen.pl
+noun-437,ae ⇌ ārum / X+[-spread -labdent][-labdent -low]_,nom.pl,gen.pl
+noun-438,oe ⇌ ōrum / [-spread -lat]*[-spread -nas -lat -labdent][-spread -labdent -low][-cons][-labdent -low][b-d-f-l-m-n-p-r-s-t-z-ph-th]_,nom.pl,gen.pl
+noun-439,ēs ⇌ ium / X*[-spread -labdent][-spread -lat -labdent][c-d-g-k-l-n-r-s-t-z]_,nom.pl,gen.pl
+noun-440,ēs ⇌ um / X*[-labdent][-lat -labdent][a-e-i-m-n-o-r-u-y-ā-ē-ī-ō-ū][+cons]_,nom.pl,gen.pl
+noun-441,ūs ⇌ uum / [-spread -lat -labdent]*[d-e-i-r-s-t-z-ē-ī][d-r-z]_,nom.pl,gen.pl
+noun-442,īs ⇌ um / ophiogen_,nom.pl,gen.pl
+adjective-0,us ⇌ a / X*[-low]+_,nom.m.sg,nom.f.sg
+adjective-1, ⇌  / X*,nom.m.sg,nom.f.sg
+adjective-2,os ⇌ a / X*[-labdent -low]+_,nom.m.sg,nom.f.sg
+adjective-3,e_ ⇌ _is / [-spread]*[-spread -lat -labdent][b-c-d-g-p-q-t]_r_,nom.m.sg,nom.f.sg
+adjective-4, ⇌ a / X*[-labdent][-spread -labdent][b-c-d-f-g-m-n-p-q-s-t-z][e-i-o-u]r_,nom.m.sg,nom.f.sg
+adjective-5,e_ ⇌ _a / X*[-spread +cont -nas -labdent][-son]_r_,nom.m.sg,nom.f.sg
+adjective-6, ⇌ is / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*[c-d-g-t]e[b-d-l-r-z][e-i][l-r]_,nom.m.sg,nom.f.sg
+adjective-7,s ⇌ m / X*[-low][o-u]_,nom.m.sg,nom.n.sg
+adjective-8,is ⇌ e / X+[-labdent][-spread -labdent -low]_,nom.m.sg,nom.n.sg
+adjective-9,s ⇌ n / X*[-labdent]+[-labdent -low]o_,nom.m.sg,nom.n.sg
+adjective-10, ⇌  / X*,nom.m.sg,nom.n.sg
+adjective-11,e_ ⇌ _e / [-spread]*[-spread -lat -labdent][b-c-d-g-p-q-t]_r_,nom.m.sg,nom.n.sg
+adjective-12, ⇌ um / X*[-spread -labdent]+[b-c-d-f-g-m-n-p-q-s-t-z][e-i-o-u]r_,nom.m.sg,nom.n.sg
+adjective-13,e_ ⇌ _um / X*[-spread +cont -nas -labdent][-son]_r_,nom.m.sg,nom.n.sg
+adjective-14,is ⇌  / autumnal_,nom.m.sg,nom.n.sg
+adjective-15, ⇌ e / [a-b-d-e-o-p-r-s-t-z-ā-ē-ō]*[c-d-g-t]e[b-d-l-r-z][e-i][l-r]_,nom.m.sg,nom.n.sg
+adjective-16,s ⇌  / [e-f-i-r-s-y-z-ē-ī][e-m-n-o-ē-ō][b-d-p-r-s-t-z][c-g-q-u-ū][b-d-p-t]e_,nom.m.sg,nom.n.sg
+adjective-17,e_ ⇌ _on / symmet_r_,nom.m.sg,nom.n.sg
+adjective-18,us ⇌ ī / X*[-low]_,nom.m.sg,gen.n.sg
+adjective-19,ius ⇌ ī / X*[-low]_,nom.m.sg,gen.n.sg
+adjective-20, ⇌  / X*is,nom.m.sg,gen.n.sg
+adjective-21,os ⇌ ī / X*[-labdent][-labdent -low]_,nom.m.sg,gen.n.sg
+adjective-22, ⇌ i / X*[-spread]*X[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_s,nom.m.sg,gen.n.sg
+adjective-23,e_ ⇌ _is / [-spread]*[-spread -lat -labdent][b-c-d-g-p-q-r-s-t-z]_[n-r]_,nom.m.sg,gen.n.sg
+adjective-24, ⇌ ti / X*[-spread -labdent][-spread -lat -labdent]_s,nom.m.sg,gen.n.sg
+adjective-25, ⇌ ī / X*[-labdent][-spread -labdent][b-c-d-f-g-m-n-p-q-s-t-z][e-i-o-u]r_,nom.m.sg,gen.n.sg
+adjective-26,e_ ⇌ _ī / X*[-spread +cont -nas -labdent][-son]_r_,nom.m.sg,gen.n.sg
+adjective-27, ⇌ di / X*[-low][-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_s,nom.m.sg,gen.n.sg
+adjective-28,u ⇌ eri / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_s,nom.m.sg,gen.n.sg
+adjective-29, ⇌ is / [-spread -labdent]*[-labdent -low][-long][l-n-r]_,nom.m.sg,gen.n.sg
+adjective-30,e ⇌ i / X*[-labdent]+[-labdent -low][-nas -lat -labdent][-spread -labdent -low]_s,nom.m.sg,gen.n.sg
+adjective-31,ios ⇌ ī / [-labdent]*[-spread -lat -labdent][-labdent -high -low -back]_,nom.m.sg,gen.n.sg
+adjective-32, ⇌ tis / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.m.sg,gen.n.sg
+adjective-33,e_ ⇌ i_i / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_s,nom.m.sg,gen.n.sg
+adjective-34,e_ ⇌ i_iti / [-spread -labdent]*[-spread -nas -lat -labdent][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_s,nom.m.sg,gen.n.sg
+adjective-35,e ⇌ iti / [-nas -labdent]*[-spread -lat -labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_s,nom.m.sg,gen.n.sg
+adjective-36,c ⇌ gi / c?[e-o-s-z-ē-ō]?[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_s,nom.m.sg,gen.n.sg
+adjective-37,e ⇌ idi / [e-i-n-r-ē-ī]*[d-r-z]es_s,nom.m.sg,gen.n.sg
+adjective-38, ⇌ ssi / ecso_s,nom.m.sg,gen.n.sg
+adjective-39, ⇌ ri / [-spread -lat -labdent -low]*[b-m][a-e]_s,nom.m.sg,gen.n.sg
+adjective-40,u_ ⇌ o_is / incic_r_,nom.m.sg,gen.n.sg
+adjective-41, ⇌ nti / infa_s,nom.m.sg,gen.n.sg
+adjective-42,ec ⇌ i / [-spread -nas -lat -labdent -low]*[b-d-e-i-p-r-s-t-y-z-ē-ī]*sen_s,nom.m.sg,gen.n.sg
+adjective-43,e_ ⇌ i_ti / superst_n_s,nom.m.sg,gen.n.sg
+adjective-44, ⇌ iti / tricep_s,nom.m.sg,gen.n.sg
+adjective-45,u ⇌ ori / tricorp_s,nom.m.sg,gen.n.sg
+adjective-46,us ⇌ ō / X*[-low]_,nom.m.sg,abl.n.sg
+adjective-47,s ⇌  / X+[-labdent][-spread -labdent -low][e-i]_,nom.m.sg,abl.n.sg
+adjective-48,os ⇌ ō / X*[-labdent][-labdent -low]_,nom.m.sg,abl.n.sg
+adjective-49,s ⇌ e / X+[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_,nom.m.sg,abl.n.sg
+adjective-50,s ⇌ ī / X+[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_,nom.m.sg,abl.n.sg
+adjective-51,e_ ⇌ _ī / [-spread -labdent]*[-spread -low]*[-spread -lat -labdent][b-c-d-g-p-q-r-s-t-z]_[n-r]_,nom.m.sg,abl.n.sg
+adjective-52,s ⇌ te / X*[-spread][-spread -labdent][-spread -lat -labdent]_,nom.m.sg,abl.n.sg
+adjective-53,s ⇌ tī / X*[-spread][-spread -labdent][-spread -lat -labdent]_,nom.m.sg,abl.n.sg
+adjective-54, ⇌ ō / X*[-labdent][-spread -labdent][b-c-d-f-g-m-n-p-q-s-t-z][e-i-o-u]r_,nom.m.sg,abl.n.sg
+adjective-55,e_ ⇌ _ō / X*[-spread +cont -nas -labdent][-son]_r_,nom.m.sg,abl.n.sg
+adjective-56,s ⇌ de / X*[-low]+[-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_,nom.m.sg,abl.n.sg
+adjective-57,s ⇌ dī / X*[-low]+[-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_,nom.m.sg,abl.n.sg
+adjective-58,us ⇌ ere / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_,nom.m.sg,abl.n.sg
+adjective-59,us ⇌ erī / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_,nom.m.sg,abl.n.sg
+adjective-60, ⇌ e / [-spread -labdent]*[-spread -lat -labdent]*[-spread -lat -labdent -low][-labdent -low][-long][l-n-r]_,nom.m.sg,abl.n.sg
+adjective-61, ⇌ ī / [-spread -labdent]*[-spread -lat -labdent -low][-labdent -low][-long][l-n-r]_,nom.m.sg,abl.n.sg
+adjective-62,es ⇌ ī / [-labdent]+[-labdent -low][-nas -lat -labdent][-spread -labdent -low]_,nom.m.sg,abl.n.sg
+adjective-63,e_ ⇌ _i / [-spread -labdent]*[-spread -nas -labdent -low][a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][b-c-d-g-p-q-t]_r_,nom.m.sg,abl.n.sg
+adjective-64, ⇌ te / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.m.sg,abl.n.sg
+adjective-65, ⇌ tī / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.m.sg,abl.n.sg
+adjective-66,e_s ⇌ i_e / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_,nom.m.sg,abl.n.sg
+adjective-67,e_s ⇌ i_ī / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_,nom.m.sg,abl.n.sg
+adjective-68,e_s ⇌ i_ite / [-spread -labdent]*[a-c-d-e-g-i-r-s-t-z-ā-ē-ī][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_,nom.m.sg,abl.n.sg
+adjective-69,e_s ⇌ i_itī / [-spread -labdent]*[a-c-d-e-g-i-r-s-t-z-ā-ē-ī][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_,nom.m.sg,abl.n.sg
+adjective-70,_s ⇌ it_ / [-labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_e_,nom.m.sg,abl.n.sg
+adjective-71,es ⇌ itī / [-labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_,nom.m.sg,abl.n.sg
+adjective-72,e_s ⇌ i_iti / bic_p_,nom.m.sg,abl.n.sg
+adjective-73,es ⇌ iti / bicip_,nom.m.sg,abl.n.sg
+adjective-74,s ⇌ di / [c-d-g-t][e-i-o-u][d-n-s-t-z]cor_,nom.m.sg,abl.n.sg
+adjective-75,cs ⇌ ge / [b-c-d-e-g-o-p-q-s-t-y-z-ē-ō]*[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_,nom.m.sg,abl.n.sg
+adjective-76,cs ⇌ gī / [b-c-d-e-g-o-p-q-s-t-y-z-ē-ō]*[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_,nom.m.sg,abl.n.sg
+adjective-77,s ⇌ ti / [-spread -lat -low]*[b-d-e-i-m-n-r-y-z-ē-ī][a-e-i]_,nom.m.sg,abl.n.sg
+adjective-78, ⇌ i / [-spread -labdent]*[b-d-e-g-i-o-r-u-y-z-ē-ī-ō-ū]*[b-c-d-g-l-m-n-p-q-r-s-t-z][-long][l-r]_,nom.m.sg,abl.n.sg
+adjective-79,_s ⇌ id_ / [e-i-n-r-ē-ī]*[d-r-z]es_e_,nom.m.sg,abl.n.sg
+adjective-80,es_ ⇌ _idī / [e-i-n-r-ē-ī]*[d-r-z]_es_,nom.m.sg,abl.n.sg
+adjective-81,_ ⇌ s_i / ecso_s_,nom.m.sg,abl.n.sg
+adjective-82,es ⇌ i / [e-f-i-r-s-y-z-ē-ī][e-m-n-o-ē-ō][b-d-p-r-s-t-z][c-g-i-q-u-y-ī-ū][b-c-d-g-p-q-t]_,nom.m.sg,abl.n.sg
+adjective-83,s ⇌ rī / [-spread -lat -labdent -low]*[b-m][a-e]_,nom.m.sg,abl.n.sg
+adjective-84,s ⇌ re / [-spread -lat -labdent -low]*[b-m][a-e]_,nom.m.sg,abl.n.sg
+adjective-85,u_ ⇌ o_e / incic_r_,nom.m.sg,abl.n.sg
+adjective-86,u_ ⇌ o_ī / incic_r_,nom.m.sg,abl.n.sg
+adjective-87,s ⇌ ntī / infa_,nom.m.sg,abl.n.sg
+adjective-88,s ⇌ nte / infa_,nom.m.sg,abl.n.sg
+adjective-89,is ⇌ ī / nostrat_,nom.m.sg,abl.n.sg
+adjective-90,is ⇌ e / nostrat_,nom.m.sg,abl.n.sg
+adjective-91,cs ⇌  / [-spread -nas -lat -labdent -low]*sene_,nom.m.sg,abl.n.sg
+adjective-92,ecs ⇌ ī / [-spread -nas -lat -labdent -low]*sen_,nom.m.sg,abl.n.sg
+adjective-93,e_ ⇌ _e / polyar_n_,nom.m.sg,abl.n.sg
+adjective-94,e_s ⇌ i_te / superst_n_,nom.m.sg,abl.n.sg
+adjective-95,e_s ⇌ i_tī / superst_n_,nom.m.sg,abl.n.sg
+adjective-96,s ⇌ ite / tricep_,nom.m.sg,abl.n.sg
+adjective-97,s ⇌ itī / tricep_,nom.m.sg,abl.n.sg
+adjective-98,us ⇌ orī / tricorp_,nom.m.sg,abl.n.sg
+adjective-99,us ⇌ ore / tricorp_,nom.m.sg,abl.n.sg
+adjective-100,s ⇌ i / trifauc_,nom.m.sg,abl.n.sg
+adjective-101,a ⇌ um / X*[-low]+_,nom.f.sg,nom.n.sg
+adjective-102,is ⇌ e / X+[-labdent][-spread -labdent -low]_,nom.f.sg,nom.n.sg
+adjective-103,a ⇌ om / [-spread -labdent]+[-spread -nas -lat -labdent][-spread -lat -labdent -low][e-i-l-o-r-u-y-ē-ī-ō-ū]_,nom.f.sg,nom.n.sg
+adjective-104,a ⇌ on / X*[-labdent][-labdent -low]_,nom.f.sg,nom.n.sg
+adjective-105, ⇌  / X*,nom.f.sg,nom.n.sg
+adjective-106,is ⇌  / autumnal_,nom.f.sg,nom.n.sg
+adjective-107, ⇌ e / celer_,nom.f.sg,nom.n.sg
+adjective-108,s ⇌  / [e-f-i-r-s-y-z-ē-ī][e-m-n-o-ē-ō][b-d-p-r-s-t-z][c-g-q-u-ū][b-d-p-t]e_,nom.f.sg,nom.n.sg
+adjective-109,a ⇌ ī / X*[-low]+_,nom.f.sg,gen.n.sg
+adjective-110,ia ⇌ ī / X*[-low]_,nom.f.sg,gen.n.sg
+adjective-111, ⇌  / X*is,nom.f.sg,gen.n.sg
+adjective-112, ⇌ i / X*[-spread]*X[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_s,nom.f.sg,gen.n.sg
+adjective-113, ⇌ ti / X*[-spread -labdent][-spread -lat -labdent]_s,nom.f.sg,gen.n.sg
+adjective-114, ⇌ di / X*[-low][-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_s,nom.f.sg,gen.n.sg
+adjective-115,u ⇌ eri / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_s,nom.f.sg,gen.n.sg
+adjective-116, ⇌ is / [-spread -labdent]*[-labdent -low][-long][l-n-r]_,nom.f.sg,gen.n.sg
+adjective-117,e ⇌ i / X*[-labdent]+[-labdent -low][-nas -lat -labdent][-spread -labdent -low]_s,nom.f.sg,gen.n.sg
+adjective-118, ⇌ tis / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.f.sg,gen.n.sg
+adjective-119,e_ ⇌ i_i / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_s,nom.f.sg,gen.n.sg
+adjective-120,e_ ⇌ i_iti / [-spread -labdent]*[-spread -nas -lat -labdent][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_s,nom.f.sg,gen.n.sg
+adjective-121,e ⇌ iti / [-nas -labdent]*[-spread -lat -labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_s,nom.f.sg,gen.n.sg
+adjective-122,c ⇌ gi / c?[e-o-s-z-ē-ō]?[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_s,nom.f.sg,gen.n.sg
+adjective-123,e ⇌ idi / [e-i-n-r-ē-ī]*[d-r-z]es_s,nom.f.sg,gen.n.sg
+adjective-124, ⇌ ssi / ecso_s,nom.f.sg,gen.n.sg
+adjective-125, ⇌ ri / [-spread -lat -labdent -low]*[b-m][a-e]_s,nom.f.sg,gen.n.sg
+adjective-126,u_ ⇌ o_is / incic_r_,nom.f.sg,gen.n.sg
+adjective-127, ⇌ nti / infa_s,nom.f.sg,gen.n.sg
+adjective-128,ec ⇌ i / [-spread -nas -lat -labdent -low]*[b-d-e-i-p-r-s-t-y-z-ē-ī]*sen_s,nom.f.sg,gen.n.sg
+adjective-129,e_ ⇌ _is / polyar_n_,nom.f.sg,gen.n.sg
+adjective-130,e_ ⇌ i_ti / superst_n_s,nom.f.sg,gen.n.sg
+adjective-131, ⇌ iti / tricep_s,nom.f.sg,gen.n.sg
+adjective-132,u ⇌ ori / tricorp_s,nom.f.sg,gen.n.sg
+adjective-133,a ⇌ ō / X*[-low]+_,nom.f.sg,abl.n.sg
+adjective-134,s ⇌  / X+[-labdent][-spread -labdent -low][e-i]_,nom.f.sg,abl.n.sg
+adjective-135,s ⇌ e / X+[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_,nom.f.sg,abl.n.sg
+adjective-136,s ⇌ ī / X+[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_,nom.f.sg,abl.n.sg
+adjective-137,is ⇌ ī / [-spread]*[-spread -labdent][a-b-c-d-e-g-o-p-q-s-t-y-z-ā-ē-ō][d-r-s-t-z]_,nom.f.sg,abl.n.sg
+adjective-138,s ⇌ te / X*[-spread][-spread -labdent][-spread -lat -labdent]_,nom.f.sg,abl.n.sg
+adjective-139,s ⇌ tī / X*[-spread][-spread -labdent][-spread -lat -labdent]_,nom.f.sg,abl.n.sg
+adjective-140,s ⇌ de / X*[-low]+[-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_,nom.f.sg,abl.n.sg
+adjective-141,s ⇌ dī / X*[-low]+[-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_,nom.f.sg,abl.n.sg
+adjective-142,us ⇌ ere / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_,nom.f.sg,abl.n.sg
+adjective-143,us ⇌ erī / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_,nom.f.sg,abl.n.sg
+adjective-144, ⇌ e / [-spread -labdent]*[-spread -lat -labdent]*[-spread -lat -labdent -low][-labdent -low][-long][l-n-r]_,nom.f.sg,abl.n.sg
+adjective-145, ⇌ ī / [-spread -labdent]*[-spread -lat -labdent -low][-labdent -low][-long][l-n-r]_,nom.f.sg,abl.n.sg
+adjective-146,es ⇌ ī / [-labdent]+[-labdent -low][-nas -lat -labdent][-spread -labdent -low]_,nom.f.sg,abl.n.sg
+adjective-147, ⇌ te / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.f.sg,abl.n.sg
+adjective-148, ⇌ tī / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.f.sg,abl.n.sg
+adjective-149,e_s ⇌ i_e / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_,nom.f.sg,abl.n.sg
+adjective-150,e_s ⇌ i_ī / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_,nom.f.sg,abl.n.sg
+adjective-151,e_s ⇌ i_ite / [-spread -labdent]*[a-c-d-e-g-i-r-s-t-z-ā-ē-ī][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_,nom.f.sg,abl.n.sg
+adjective-152,e_s ⇌ i_itī / [-spread -labdent]*[a-c-d-e-g-i-r-s-t-z-ā-ē-ī][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_,nom.f.sg,abl.n.sg
+adjective-153,_s ⇌ it_ / [-labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_e_,nom.f.sg,abl.n.sg
+adjective-154,es ⇌ itī / [-labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_,nom.f.sg,abl.n.sg
+adjective-155,e_s ⇌ i_iti / bic_p_,nom.f.sg,abl.n.sg
+adjective-156,es ⇌ iti / bicip_,nom.f.sg,abl.n.sg
+adjective-157,s ⇌ di / [c-d-g-t][e-i-o-u][d-n-s-t-z]cor_,nom.f.sg,abl.n.sg
+adjective-158,cs ⇌ ge / [b-c-d-e-g-o-p-q-s-t-y-z-ē-ō]*[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_,nom.f.sg,abl.n.sg
+adjective-159,cs ⇌ gī / [b-c-d-e-g-o-p-q-s-t-y-z-ē-ō]*[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_,nom.f.sg,abl.n.sg
+adjective-160,s ⇌ ti / [-spread -lat -low]*[b-d-e-i-m-n-r-y-z-ē-ī][a-e-i]_,nom.f.sg,abl.n.sg
+adjective-161, ⇌ i / [-spread -labdent]*[b-d-e-g-i-o-r-u-y-z-ē-ī-ō-ū]*[b-c-d-g-l-m-n-p-q-r-s-t-z][-long][l-r]_,nom.f.sg,abl.n.sg
+adjective-162,_s ⇌ id_ / [e-i-n-r-ē-ī]*[d-r-z]es_e_,nom.f.sg,abl.n.sg
+adjective-163,es_ ⇌ _idī / [e-i-n-r-ē-ī]*[d-r-z]_es_,nom.f.sg,abl.n.sg
+adjective-164,_ ⇌ s_i / ecso_s_,nom.f.sg,abl.n.sg
+adjective-165,es ⇌ i / [e-f-i-r-s-y-z-ē-ī][e-m-n-o-ē-ō][b-d-p-r-s-t-z][c-g-i-q-u-y-ī-ū][b-c-d-g-p-q-t]_,nom.f.sg,abl.n.sg
+adjective-166,s ⇌ rī / [-spread -lat -labdent -low]*[b-m][a-e]_,nom.f.sg,abl.n.sg
+adjective-167,s ⇌ re / [-spread -lat -labdent -low]*[b-m][a-e]_,nom.f.sg,abl.n.sg
+adjective-168,u_ ⇌ o_e / incic_r_,nom.f.sg,abl.n.sg
+adjective-169,u_ ⇌ o_ī / incic_r_,nom.f.sg,abl.n.sg
+adjective-170,s ⇌ ntī / infa_,nom.f.sg,abl.n.sg
+adjective-171,s ⇌ nte / infa_,nom.f.sg,abl.n.sg
+adjective-172,is ⇌ e / nostrat_,nom.f.sg,abl.n.sg
+adjective-173,cs ⇌  / [-spread -nas -lat -labdent -low]*sene_,nom.f.sg,abl.n.sg
+adjective-174,ecs ⇌ ī / [-spread -nas -lat -labdent -low]*sen_,nom.f.sg,abl.n.sg
+adjective-175,e_ ⇌ _e / polyar_n_,nom.f.sg,abl.n.sg
+adjective-176,e_ ⇌ _ī / polyar_n_,nom.f.sg,abl.n.sg
+adjective-177,e_s ⇌ i_te / superst_n_,nom.f.sg,abl.n.sg
+adjective-178,e_s ⇌ i_tī / superst_n_,nom.f.sg,abl.n.sg
+adjective-179,s ⇌ ite / tricep_,nom.f.sg,abl.n.sg
+adjective-180,s ⇌ itī / tricep_,nom.f.sg,abl.n.sg
+adjective-181,us ⇌ orī / tricorp_,nom.f.sg,abl.n.sg
+adjective-182,us ⇌ ore / tricorp_,nom.f.sg,abl.n.sg
+adjective-183,s ⇌ i / trifauc_,nom.f.sg,abl.n.sg
+adjective-184,um ⇌ ī / X*[-low]_,nom.n.sg,gen.n.sg
+adjective-185,ium ⇌ ī / X*[-low]_,nom.n.sg,gen.n.sg
+adjective-186,e ⇌ is / X+[-labdent][-spread -labdent -low]_,nom.n.sg,gen.n.sg
+adjective-187,om ⇌ ī / [-spread -labdent]+[-spread -nas -lat -labdent][-spread -lat -labdent -low][e-i-l-o-r-u-y-ē-ī-ō-ū]_,nom.n.sg,gen.n.sg
+adjective-188,on ⇌ ī / X*[-labdent][-labdent -low]_,nom.n.sg,gen.n.sg
+adjective-189, ⇌ i / X*[-spread]*X[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_s,nom.n.sg,gen.n.sg
+adjective-190, ⇌ ti / X*[-spread -labdent][-spread -lat -labdent]_s,nom.n.sg,gen.n.sg
+adjective-191, ⇌ di / X*[-low][-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_s,nom.n.sg,gen.n.sg
+adjective-192,u ⇌ eri / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_s,nom.n.sg,gen.n.sg
+adjective-193, ⇌ is / [-spread -labdent]*[-labdent -low][-long][l-n-r]_,nom.n.sg,gen.n.sg
+adjective-194,e ⇌ i / [-labdent]+[-labdent -low][-nas -lat -labdent][-spread -labdent -low]_s,nom.n.sg,gen.n.sg
+adjective-195,ion ⇌ ī / [-labdent]*[-spread -lat -labdent][-labdent -high -low -back]_,nom.n.sg,gen.n.sg
+adjective-196, ⇌ tis / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.n.sg,gen.n.sg
+adjective-197,e_ ⇌ i_i / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_s,nom.n.sg,gen.n.sg
+adjective-198,e_ ⇌ i_iti / [-spread -labdent]*[-spread -nas -lat -labdent][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_s,nom.n.sg,gen.n.sg
+adjective-199,e ⇌ iti / [-nas -labdent]*[-spread -lat -labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_s,nom.n.sg,gen.n.sg
+adjective-200,c ⇌ gi / c?[e-o-s-z-ē-ō]?[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_s,nom.n.sg,gen.n.sg
+adjective-201,e ⇌ idi / [e-i-n-r-ē-ī]*[d-r-z]es_s,nom.n.sg,gen.n.sg
+adjective-202, ⇌ ssi / ecso_s,nom.n.sg,gen.n.sg
+adjective-203, ⇌ ris / i[m-n]pube_,nom.n.sg,gen.n.sg
+adjective-204,u_ ⇌ o_is / incic_r_,nom.n.sg,gen.n.sg
+adjective-205, ⇌ nti / infa_s,nom.n.sg,gen.n.sg
+adjective-206, ⇌ ri / [-spread -lat -labdent -low]*[b-m][a-e]_s,nom.n.sg,gen.n.sg
+adjective-207, ⇌  / nostratis,nom.n.sg,gen.n.sg
+adjective-208,ec ⇌ i / [-spread -nas -lat -labdent -low]*[b-d-e-i-p-r-s-t-y-z-ē-ī]*sen_s,nom.n.sg,gen.n.sg
+adjective-209,e_ ⇌ _is / polyar_n_,nom.n.sg,gen.n.sg
+adjective-210,e_ ⇌ i_ti / superst_n_s,nom.n.sg,gen.n.sg
+adjective-211, ⇌ iti / tricep_s,nom.n.sg,gen.n.sg
+adjective-212,u ⇌ ori / tricorp_s,nom.n.sg,gen.n.sg
+adjective-213,um ⇌ ō / X*[-low]_,nom.n.sg,abl.n.sg
+adjective-214,e ⇌ i / X+[-labdent][-spread -labdent -low]_,nom.n.sg,abl.n.sg
+adjective-215,om ⇌ ō / [-spread -labdent]+[-spread -nas -lat -labdent][-spread -lat -labdent -low][e-i-l-o-r-u-y-ē-ī-ō-ū]_,nom.n.sg,abl.n.sg
+adjective-216,on ⇌ ō / X*[-labdent][-labdent -low]_,nom.n.sg,abl.n.sg
+adjective-217,s ⇌ e / X+[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_,nom.n.sg,abl.n.sg
+adjective-218,s ⇌ ī / X+[a-e-i-l-o-r-u-y-ā-ē-ī-ō-ū][c-p-q]_,nom.n.sg,abl.n.sg
+adjective-219,e ⇌ ī / [-spread -labdent]*[-spread -low]*[-spread -labdent][b-c-d-e-g-o-p-q-s-t-y-z-ē-ō]r_,nom.n.sg,abl.n.sg
+adjective-220,s ⇌ te / X*[-spread][-spread -labdent][-spread -lat -labdent]_,nom.n.sg,abl.n.sg
+adjective-221,s ⇌ tī / X*[-spread][-spread -labdent][-spread -lat -labdent]_,nom.n.sg,abl.n.sg
+adjective-222,s ⇌ de / X*[-low]+[-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_,nom.n.sg,abl.n.sg
+adjective-223,s ⇌ dī / X*[-low]+[-spread -lat -labdent -low][a-b-d-e-o-p-r-s-t-z-ā-ē-ō][a-e-i-n-r-ā-ē-ī]_,nom.n.sg,abl.n.sg
+adjective-224,us ⇌ ere / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_,nom.n.sg,abl.n.sg
+adjective-225,us ⇌ erī / [-spread -nas -lat -labdent]*[e-i-l-o-r-u-y-ē-ī-ō-ū][a-e]t_,nom.n.sg,abl.n.sg
+adjective-226, ⇌ e / [-spread -labdent]*[-spread -lat -labdent]*[-spread -lat -labdent -low][-labdent -low][-long][l-n-r]_,nom.n.sg,abl.n.sg
+adjective-227, ⇌ ī / [-spread -labdent]*[-spread -lat -labdent -low][-labdent -low][-long][l-n-r]_,nom.n.sg,abl.n.sg
+adjective-228,s ⇌  / [-labdent]+[-labdent -low][-nas -lat -labdent][-spread -labdent -low]e_,nom.n.sg,abl.n.sg
+adjective-229,es ⇌ ī / [-labdent]+[-labdent -low][-nas -lat -labdent][-spread -labdent -low]_,nom.n.sg,abl.n.sg
+adjective-230, ⇌ te / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.n.sg,abl.n.sg
+adjective-231, ⇌ tī / [a-e-m-n-o-ā-ē-ō]*[a-c-d-e-g-h-s-t-z-ā-ē-ch-th][e-i-l-r-y-ē-ī][e-i-l-r-s-y-z-ē-ī][a-d-e-s-t-z-ā-ē][e-i-r-s-z-ē-ī][s-z]on_,nom.n.sg,abl.n.sg
+adjective-232,e_s ⇌ i_e / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_,nom.n.sg,abl.n.sg
+adjective-233,e_s ⇌ i_ī / [-spread -labdent]*[-spread -lat -labdent]+[-spread -lat -labdent -low]+[b-c-d-g-l-m-n-p-q-r-s-t-z]_[b-c-g-p-q]_,nom.n.sg,abl.n.sg
+adjective-234,e_s ⇌ i_ite / [-spread -labdent]*[a-c-d-e-g-i-r-s-t-z-ā-ē-ī][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_,nom.n.sg,abl.n.sg
+adjective-235,e_s ⇌ i_itī / [-spread -labdent]*[a-c-d-e-g-i-r-s-t-z-ā-ē-ī][b-d-e-g-i-m-n-o-r-u-y-z-ē-ī-ō-ū]c_p_,nom.n.sg,abl.n.sg
+adjective-236, ⇌ i / [-spread -labdent]*[-spread -lat -labdent]*[b-c-d-g-l-m-n-p-q-r-s-t-z][-long][l-r]_,nom.n.sg,abl.n.sg
+adjective-237,_s ⇌ it_ / [-labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_e_,nom.n.sg,abl.n.sg
+adjective-238,es ⇌ itī / [-labdent]*[a-e-i-o-r-s-u-y-z-ā-ē-ī-ō-ū][-spread -labdent -low]_,nom.n.sg,abl.n.sg
+adjective-239,e_s ⇌ i_iti / bic_p_,nom.n.sg,abl.n.sg
+adjective-240,es ⇌ iti / bicip_,nom.n.sg,abl.n.sg
+adjective-241,s ⇌ di / [c-d-g-t][e-i-o-u][d-n-s-t-z]cor_,nom.n.sg,abl.n.sg
+adjective-242,cs ⇌ ge / [b-c-d-e-g-o-p-q-s-t-y-z-ē-ō]*[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_,nom.n.sg,abl.n.sg
+adjective-243,cs ⇌ gī / [b-c-d-e-g-o-p-q-s-t-y-z-ē-ō]*[c-d-e-g-i-n-r-s-t-z-ē-ī][c-d-g-l-n-r-s-t-z][l-r]e_,nom.n.sg,abl.n.sg
+adjective-244,s ⇌ ti / [-spread -lat -low]*[b-d-e-i-m-n-r-y-z-ē-ī][a-e-i]_,nom.n.sg,abl.n.sg
+adjective-245,_s ⇌ id_ / [e-i-n-r-ē-ī]*[d-r-z]es_e_,nom.n.sg,abl.n.sg
+adjective-246,es_ ⇌ _idī / [e-i-n-r-ē-ī]*[d-r-z]_es_,nom.n.sg,abl.n.sg
+adjective-247,_ ⇌ s_i / ecso_s_,nom.n.sg,abl.n.sg
+adjective-248, ⇌ rī / i[m-n]pube_,nom.n.sg,abl.n.sg
+adjective-249, ⇌ er / i[m-n]pub_e,nom.n.sg,abl.n.sg
+adjective-250,u_ ⇌ o_e / incic_r_,nom.n.sg,abl.n.sg
+adjective-251,u_ ⇌ o_ī / incic_r_,nom.n.sg,abl.n.sg
+adjective-252,es ⇌ i / indig_,nom.n.sg,abl.n.sg
+adjective-253,s ⇌ ntī / infa_,nom.n.sg,abl.n.sg
+adjective-254,s ⇌ nte / infa_,nom.n.sg,abl.n.sg
+adjective-255,s ⇌ re / [b-d-e-m-n-p-s-t-z-ē]*[-spread -nas -lat -labdent -low]*[b-m][a-e]_,nom.n.sg,abl.n.sg
+adjective-256,s ⇌ rī / [b-d-e-m-n-p-s-t-z-ē]*[-spread -nas -lat -labdent -low]*[b-m][a-e]_,nom.n.sg,abl.n.sg
+adjective-257,is ⇌ ī / nostrat_,nom.n.sg,abl.n.sg
+adjective-258,is ⇌ e / nostrat_,nom.n.sg,abl.n.sg
+adjective-259,cs ⇌  / [-spread -nas -lat -labdent -low]*sene_,nom.n.sg,abl.n.sg
+adjective-260,ecs ⇌ ī / [-spread -nas -lat -labdent -low]*sen_,nom.n.sg,abl.n.sg
+adjective-261,e_ ⇌ _e / polyar_n_,nom.n.sg,abl.n.sg
+adjective-262,e_ ⇌ _ī / polyar_n_,nom.n.sg,abl.n.sg
+adjective-263,e_s ⇌ i_te / superst_n_,nom.n.sg,abl.n.sg
+adjective-264,e_s ⇌ i_tī / superst_n_,nom.n.sg,abl.n.sg
+adjective-265,s ⇌ ite / tricep_,nom.n.sg,abl.n.sg
+adjective-266,s ⇌ itī / tricep_,nom.n.sg,abl.n.sg
+adjective-267,us ⇌ orī / tricorp_,nom.n.sg,abl.n.sg
+adjective-268,us ⇌ ore / tricorp_,nom.n.sg,abl.n.sg
+adjective-269,s ⇌ i / trifauc_,nom.n.sg,abl.n.sg
+adjective-270,ī ⇌ ō / X*[-low]_,gen.n.sg,abl.n.sg
+adjective-271,ī ⇌ iō / X*[-low]_,gen.n.sg,abl.n.sg
+adjective-272,s ⇌  / X+[-labdent][-spread -labdent -low]i_,gen.n.sg,abl.n.sg
+adjective-273,is ⇌ e / X+[-labdent][-spread -labdent -low]_,gen.n.sg,abl.n.sg
+adjective-274,is ⇌ ī / X+[-labdent][-spread -labdent -low]_,gen.n.sg,abl.n.sg
+adjective-275, ⇌  / [-labdent]*s,nom.m.pl,nom.f.pl
+adjective-276,o ⇌ ae / a?[b-d-m-n][b-o-u-y-ō-ū]_,nom.m.pl,nom.f.pl
+adjective-277,ī ⇌ ae / [-spread -labdent]*[+voice -spread -lat -labdent][-spread -labdent -low]_,nom.m.pl,nom.f.pl
+adjective-278,ēs ⇌ ia / [-labdent]*[-spread -lat -labdent][b-c-d-g-l-p-q-r-s-t-z]_,nom.m.pl,nom.n.pl
+adjective-279, ⇌  / [a-d-e-s-t-z-ā-ē]?[b-d-m-n-r-z][b-d-e-g-i-o-r-u-y-z-ē-ī-ō-ū][e-o-s-z-ē-ō],nom.m.pl,nom.n.pl
+adjective-280,ī ⇌ a / [-spread -lat -labdent]*[-spread -labdent -low]*[+voice -spread -lat -labdent][-spread -labdent -low]_,nom.m.pl,nom.n.pl
+adjective-281,ēs ⇌ ia / [-labdent]*[-spread -lat -labdent][b-c-d-g-l-p-q-r-s-t-z]_,nom.f.pl,nom.n.pl
+adjective-282,ae ⇌ o / a?[b-d-m-n][b-o-u-y-ō-ū]_,nom.f.pl,nom.n.pl
+adjective-283,e ⇌  / [-spread -labdent]*[-spread -labdent -low]*[+voice -spread -lat -labdent][-spread -labdent -low]a_,nom.f.pl,nom.n.pl
+adjective-284, ⇌  / tris,nom.f.pl,nom.n.pl

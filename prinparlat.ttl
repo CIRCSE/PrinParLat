@@ -117,3 +117,12 @@ prinparlat:perfect_participle_stem a prinparlat:StemType ;
 prinparlat:future_participle_stem a prinparlat:StemType ;
 	rdfs:label "future participle stem" ;
 	rdfs:comment "The stem on which wordforms of the future participle are built.".
+
+
+prinparlat:noun_stem a prinparlat:StemType ;
+	rdfs:label "noun stem" ;
+	rdfs:comment "The stem used for nouns.".
+
+prinparlat:adjective_stem a prinparlat:StemType ;
+	rdfs:label "adjective stem" ;
+	rdfs:comment "The stem used for adjectives.".

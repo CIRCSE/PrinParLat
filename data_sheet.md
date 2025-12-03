@@ -1,6 +1,6 @@
 Data set name: PrinParLat
 
-Citation (if available):
+Citation (if available): Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2025. PrinParLat 2.0. Online resource
 
 Data set developers: Matteo Pellegrini, Marco Passarotti, Francesco Mambrini, Giovanni Moretti
 
@@ -13,7 +13,7 @@ Others who contributed to this document:
 **For what purpose was the dataset created?** 
 
 This dataset was created to supplement the LiLa Knowlede Base of intreoperable resources for Latin with information of wordorms other than the citation forms.
-More specifically, it provides the principal parts (i.e., a set of wordforms that allow for the inference of the whole paradigm) of Latin verbs, as well as a fine-grained classification of their inflectional behavior.
+More specifically, it provides the principal parts (i.e., a set of wordforms that allow for the inference of the whole paradigm) of Latin words, as well as a fine-grained classification of their inflectional behavior.
 Two different layers of lexical units are used: the traditional notion of "lexeme" is used to group wordforms that share the same lexical meaning; to account for systematic variation in form in cases of overabundance, the notion of "flexeme" is used (see the readme for further details).
 
 **Who created the dataset (for example, which team, research group) and on behalf of which entity (for example, company, institution, organization)?** 
@@ -34,10 +34,10 @@ Forms are given in orthographic transcription. This is due to lack of systematic
 
 **How many instances are there in total?**
 
-- Number of inflected forms: 40,467 (of which 2,057 are defective cells)
-- Number of lexemes: 8,017
-- Number of flexemes: 11,220
-- Maximal paradigm size in cells: 7
+- Number of inflected forms: 226,354 (including 4,120 defective cells): 40,434 for verbs, 116,653 for nouns, 69,267 for adjectives
+- Number of lexemes: 40,000: 8,014 for verbs, 20,935 for nouns, 11,051 for adjectives
+- Number of flexemes: 60,740: 10,998 for verbs, 33,718 for nouns, 16,024 for adjectives
+- Maximal paradigm size in cells: 8 for verbs, 5 for nouns, 8 for adjectives
 
 **Language varieties** 
 
@@ -122,7 +122,7 @@ The RDF version of the dataset has been used for the linking of Latin stems of t
 
 **What (other) tasks could the dataset be used for?**
 
-The dataset can be used to generate full paradigms for Latin verbs (and any subsequent NLP task they can be used for), or for detailed studies of their inflectional behavior.
+The dataset can be used to generate full paradigms for Latin words (and any subsequent NLP task they can be used for), or for detailed studies of their inflectional behavior.
 
 # Distribution.
 
@@ -132,13 +132,15 @@ The dataset is released both as a set of .csv files following the Paralex standa
 
 DOI: http://doi.org/10.5281/zenodo.8027826
 
+This is version 2.0, that also includes nouns and adjectives, in addition to verbs that were included in version 1.
+
 **When will the dataset be distributed?**
 
 The dataset is already available.
 
 **Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?** 
 
-The dataset is distributed under a Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0 DEED, https://creativecommons.org/licenses/by-sa/4.0/).
+The dataset is distributed under a Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/).
 
 # Maintenance
 

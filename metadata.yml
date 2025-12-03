@@ -1,0 +1,101 @@
+title: PrinParLat
+contributors:
+  - title: 'Matteo Pellegrini'
+languages_iso639: 
+  - lat
+files:
+  cells:
+    path: "cells.csv"
+  data_sheet:
+    path: "data_sheet.md"
+  features-values:
+    path: "features-values.csv"
+  flexemes:
+    path: "flexemes.csv"
+    rdfType: "http://lila-erc.eu/ontologies/prinparlat/Flexeme"
+    schema:
+      primaryKey: flexeme_id
+      fields:
+      - name: "flexeme_id"
+        type: "string"
+        title: "Flexeme identifier"
+        description: "Flexeme identifier"
+      - name: "inflection_class"
+        type: "string"
+        title: "Inflection class identifier"
+        description: "This identifier groups together lexemes of the same inflection class."
+        rdfProperty: "https://www.paralex-standard.org/paralex_ontology.xml#inflection_class"
+      - name: "lila_id_lemma"
+        type: "string"
+        title: "lemma ID"
+        description: "ID of the corresponding lemma in the LiLa Knowledge Base."
+        rdfProperty: "http://www.w3.org/ns/lemon/ontolex#canonicalForm"
+      - name: "hasInflectionType"
+        type: "string"
+        title: "Inflection Type"
+        description: "Code corresponding to the Inflection Type (i.e., traditional, coarse-grained inflection class) assigned to the lemma in the LiLa Knowledge Base."
+        rdfProperty: "http://lila-erc.eu/ontologies/lila/hasInflectionType"
+      - name: "gender"
+        type: "string"
+        title: "Gender"
+        description: "The gender of the lexical item."
+        rdfProperty: "http://www.lexinfo.net/ontology/3.0/lexinfo#gender"
+  forms:
+    path: "forms.csv"
+    schema:
+      fields:
+      - name: "flexeme"
+        type: "string"
+        title: "Flexeme identifier"
+        description: "Reference to identifier(s) of the flexeme(s) to which the forms can be assigned, colon separated."
+        rdfProperty: "http://lila-erc.eu/ontologies/prinparlat/flexeme"
+  graphemes:
+    path: "graphemes.csv"
+  inflectionclasses-patterns:
+    path: "inflectionclasses-patterns.csv"
+    schema:
+      primaryKey: inflectionclasses-patterns_id
+      fields:
+      - name: "inflectionclasses-patterns_id"
+        type: "string"
+        title: "ID"
+        description: "Identifier for the row."
+      - name: "inflection_class"
+        type: "string"
+        title: "Inflection class identifier"
+        description: "This identifier groups together lexemes of the same inflection class."
+        rdfProperty: "https://www.paralex-standard.org/paralex_ontology.xml#inflection_class"
+      - name: "pattern"
+        type: "string"
+        title: "Pattern identifier"
+        description: "Reference to the identifier of the alternation pattern."
+        rdfProperty: "http://lila-erc.eu/ontologies/prinparlat/pattern"
+  lexemes:
+    path: "lexemes.csv"
+  patterns:
+    path: "patterns.csv"
+    schema:
+      primaryKey: pattern_id
+      fields:
+      - name: "pattern_id"
+        type: "string"
+        title: "Pattern ID"
+        description: "Identifier of the alternation pattern."
+      - name: "pattern_alternation"
+        type: "string"
+        title: "Alternation pattern"
+        description: "Alternation pattern between two cells."
+        rdfProperty: "http://lila-erc.eu/ontologies/prinparlat/alternation_pattern"
+      - name: "cell_left"
+        type: "string"
+        title: "Left cell"
+        description: "Reference to the identifier of the cells on the left for the relevant alternation pattern."
+        rdfProperty: "http://lila-erc.eu/ontologies/prinparlat/cell_left"
+      - name: "cell_right"
+        type: "string"
+        title: "Right cell"
+        description: "Reference to the identifier of the cells on the right for the relevant alternation pattern."
+        rdfProperty: "http://lila-erc.eu/ontologies/prinparlat/cell_right"
+  readme:
+    path: "README.md"
+name: prinparlat

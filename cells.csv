@@ -7,3 +7,16 @@ prf.act.ind.1.sg,V;FIN;ACT;PST;PFV;IND;1;SG
 prf.act.ind.3.sg,V;FIN;ACT;PST;PFV;IND;3;SG
 prf.pass.ptcp.nom.n.sg,V.PTCP;NFIN;PASS;PFV;NOM;NEUT;SG
 fut.act.ptcp.nom.n.sg,V.PTCP;NFIN;ACT;PROSP;NOM;NEUT;SG
+nom.sg,N;NOM;SG
+gen.sg,N;GEN;SG
+abl.sg,N;ABL;SG
+nom.pl,N;NOM;PL
+gen.pl,N;GEN;PL
+nom.m.sg,ADJ;NOM;MASC;SG
+nom.f.sg,ADJ;NOM;FEM;SG
+nom.n.sg,ADJ;NOM;NEUT;SG
+gen.n.sg,ADJ;GEN;NEUT;SG
+abl.n.sg,N;ABL;NEUT;SG
+nom.m.pl,ADJ;NOM;MASC;PL
+nom.f.pl,ADJ;NOM;FEM;PL
+nom.n.pl,ADJ;NOM;NEUT;PL
