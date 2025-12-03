@@ -17,7 +17,7 @@ For instance, the alternation pattern between "lauare" and "lauabit" ("re ⇌ bi
 
 ## How to cite
 
-Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2025. PrinParLat v2. Online resource.
+Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2025. PrinParLat version 2. Online resource.
 
 ## References
 

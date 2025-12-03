@@ -1,6 +1,6 @@
 Data set name: PrinParLat
 
-Citation (if available): Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2025. PrinParLat v2. Online resource
+Citation (if available): Pellegrini, M. & Passarotti, M. & Mambrini, F. & Moretti, G. 2025. PrinParLat version 2. Online resource
 
 Data set developers: Matteo Pellegrini, Marco Passarotti, Francesco Mambrini, Giovanni Moretti
 
