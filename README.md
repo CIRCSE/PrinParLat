@@ -3,7 +3,7 @@
 ## A resource of principal parts of Latin words
 
 PrinParLat (short for "Principal Parts Latin") is a resource listing the principal parts of Latin words. Principal parts are sets of inflected wordforms from which the content of all the other paradigm cells can be inferred (cf. Stump & Finkel 2013). Principal parts were generated from the database of the Lemlat 3.0 morphological analyzer (cf. Passarotti et al. 2017).
-This is version 2, that also includes nouns and adjectives, in addition to verbs that were included in version 1.
+This is version 2.0.0, that also includes nouns and adjectives, in addition to verbs that were included in version 1.
 The cells that are used as principal parts for verbs are prs.act.inf, fut.act.ind.3.sg, prf.act.ind.1sg, prf.ptcp.nom.n.sg, fut.ptcp.nom.n.sg in most cases; prs.pass.inf and fut.pass.ind.3.sg are used for deponent verbs that lack active wordforms; prf.act.ind.3.sg is used for impersonal verbs that lack first-person wordforms.
 The ones that are used for nouns are nom.sg, gen.sg, abl.sg, gen.pl in most cases; nom.pl and gen.pl are used for pluralia tantum nouns that lack singular wordforms.
 The ones that are used for adjectives are nom.m.sg, nom.f.sg, nom.n.sg, gen.n.sg, abl.n.sg in most cases; nom.m.pl, nom.f.pl and nom.n.pl are used for cases where no singular form could be generated from our data source.
